@@ -15,7 +15,11 @@ CASTELLON , 11 , 27 , 38
 CEUTA , 295 , 393 , 688 
 CIUDAD REAL , 111 , 214 , 325 
 CORDOBA , 602 , 860 , 1462 
+<<<<<<< HEAD
 CORUÑA LA , 20 , 22 , 42 
+=======
+LA CORUÑA , 20 , 22 , 42 
+>>>>>>> 4b5f63f20107ff4cab648d4b5fe5b82646b0d6e5
 CUENCA , 1 , 8 , 9 
 EXTRANJERO , 417 , 521 , 938 
 GERONA , 29 , 35 , 64 
@@ -37,7 +41,11 @@ NAVARRA , 20 , 31 , 51
 ORENSE , 0 , 4 , 4 
 OVIEDO , 38 , 37 , 75 
 PALENCIA , 2 , 5 , 7 
+<<<<<<< HEAD
 PALMAS LAS , 79 , 139 , 218 
+=======
+LAS PALMAS , 79 , 139 , 218 
+>>>>>>> 4b5f63f20107ff4cab648d4b5fe5b82646b0d6e5
 PONTEVEDRA , 15 , 20 , 35 
 SALAMANCA , 22 , 29 , 51 
 SEGOVIA , 6 , 3 , 9 
@@ -64,7 +72,8 @@ BULGARIA , 2 , 1 , 3
 CANADA , 0 , 1 , 1 
 CHECOSLOVAQUIA , 1 , 1 , 2 
 CHILE , 3 , 1 , 4 
-CHINA (REP. POPULAR) , 0 , 2 , 2 COLOMBIA , 4 , 2 , 6 
+CHINA (REP. POPULAR) , 0 , 2 , 2 
+COLOMBIA , 4 , 2 , 6 
 CONGO(REP. POPULAR) , 0 , 1 , 1 
 COSTA DE MARFIL , 0 , 1 , 1 
 COSTA RICA , 0 , 2 , 2 
