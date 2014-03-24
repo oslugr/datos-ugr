@@ -1,0 +1,8 @@
+del , con asignaturas de 
+CURSO , PRIMERO , SEGUNDO , TERCERO , CUARTO , QUINTO , SEXTO 
+PRIMERO , 0 , , , , , 
+SEGUNDO , 1 , 1 , , , , 
+TERCERO , 2 , 5 , 4 , , , 
+CUARTO , 0 , 0 , 0 , 0 , , 
+QUINTO , 0 , 0 , 0 , 0 , 2 , 
+SEXTO , 0 , 0 , 0 , 0 , 0 , 0 
