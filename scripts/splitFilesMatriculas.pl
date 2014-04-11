@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 #       CopyRight 2014 Óscar Zafra (oskyar@gmail.com)
 #
 #       This program is free software: you can redistribute it and/or modify
