@@ -21,7 +21,13 @@ use strict;
 use Switch;
 use utf8;
 
-foreach my $arg (@ARGV){
-	$arg =~ /(.*)(\.[xX][lL][sS])$/;
-	print $1;
+my $command;
+my $inFile;
+foreach my $inFile (@ARGV){
+	$inFile =~ /([\s\w\d\/]*)(\.[xX][lL][sS])$/;
+	$command = "xls2csv -x \"$inFile\" -b ISO-8859-1 -c \"$1\".csv -a UTF-8 -f -q";
+	system($command);
+	if ($?) {
+		print "command failed: $!\n";
+	}
 }
