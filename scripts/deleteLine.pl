@@ -12,6 +12,9 @@ use strict;
 use utf8;
 use open 'locale'; 
 
+my @inFiles;
+my $line;
+my $numLine;
 #Programa
 principal();
 
@@ -19,9 +22,34 @@ principal();
 #Métodos
 sub principal {
 
-    if( scalar(@ARGV) > 2 ){
-        my $in = shift @ARGV;
-        my $line = shift @ARGV;
+    #Se guardan los argumentos que empiezan por csv en un array
+    if(scalar(@ARGV) > 2){
+        while ($ARGV[0] =~ /([\w\d]*\.[cC][sS][vV]$)/){
+            push @inFiles, shift @ARGV;
+        }
+        if(scalar(@ARGV) >= 2){
+            $line = shift @ARGV;
+            $numLine = int(shift @ARGV);
+        }else{
+            if(scalar(@ARGV)!=0){
+                print "ERROR: no ha introducido los parámetros correctos\n";
+                error();
+                exit(0);
+            }
+        }
+        if(scalar(@inFiles) == 0){
+            print "Error: No ha introducido ningún argumento de tipo archivo.csv\n";
+            error();
+            exit(0);
+        }
+    }else{
+        print "\n$0\nExtrae solo las líneas que casan con los parámetros pasados como argumentos y lo pasa a CSV\n";
+        print "FORMATO: " . $0 . " Archivo_entrada <Posicion_Inicial Desplazamiento Valor>\n\n";
+        error();
+        exit(0);
+    }
+    
+    foreach my $in (@inFiles){
         # Creamos instancia de CSV
         my $csv = Text::CSV->new ( { binary => 1, 
             quote_char          => '"',
@@ -51,9 +79,7 @@ sub principal {
             my @sortedNumLines = sort {$a >= $b}@ARGV;
             if( "fil" eq $line){
                 my $cont=0;
-                my $numLine = 0;
 
-                $numLine = int(shift @ARGV);
                 while (my $row = $csv->getline( $inHandler )){
                     #Se le resta 1 al número de linea
                     if($cont != ($numLine -1)){
@@ -76,9 +102,6 @@ sub principal {
         }
         close($outHandler);
         close($inHandler);
-    }else{
-        say "ERROR: Número de argumentos inválido\n";
-        error();
     }
 }
 
