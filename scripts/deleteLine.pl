@@ -38,13 +38,13 @@ sub principal {
             }
         }
         if(scalar(@inFiles) == 0){
-            print "Error: No ha introducido ningún argumento de tipo archivo.csv\n";
+            print "ERROR: No ha introducido ningún argumento de tipo archivo.csv\n";
             error();
             exit(0);
         }
     }else{
-        print "\n$0\nExtrae solo las líneas que casan con los parámetros pasados como argumentos y lo pasa a CSV\n";
-        print "FORMATO: " . $0 . " Archivo_entrada <Posicion_Inicial Desplazamiento Valor>\n\n";
+        print "\n$0\nElimina la línea ó columna de los archivos .csv que se indiquen \n";
+        print "FORMATO: " . $0 . " archivo.csv... <fil|col> numberLine... \n\n";
         error();
         exit(0);
     }
@@ -106,7 +106,7 @@ sub principal {
 }
 
 sub error{
-    say "Ejecuta: perl deleteLine.pl archivo.csv [fil|col] (line/s)";
+    say "Ejecuta: perl deleteLine.pl archivo.csv... <fil|col> numberLine...";
     say "|--Ejemplo: perl deleteLine.pl archivo.csv fil 1 4 5";
     say "|--Ejecución: Borrará las filas 1, 4 y 5 de archivo.csv";
 }
