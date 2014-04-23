@@ -24,8 +24,8 @@ use utf8;
 my $command;
 my $inFile;
 foreach my $inFile (@ARGV){
-	$inFile =~ /([\s\w\d\/]*)(\.[xX][lL][sS])$/;
-	$command = "xls2csv -x \"$inFile\" -b ISO-8859-1 -c \"$1\".csv -a UTF-8 -f -q";
+	$inFile =~ /(.*)(\.[xX][lL][sS])$/;
+	$command = " perl /home/oskyar/proyectosGit/datos-ugr/scripts/xls2csv.pl -x \"$inFile\" -b ISO-8859-1 -c \"$1\".csv -a UTF-8";
 	system($command);
 	if ($?) {
 		print "command failed: $!\n";
