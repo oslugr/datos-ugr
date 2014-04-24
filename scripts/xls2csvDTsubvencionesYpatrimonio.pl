@@ -49,12 +49,12 @@ foreach my $inFile (@ARGV){
 
 
 	#Como el programa anterior mete comas como separador a partir de mil, lo voy a quitar para poder previsualizarlo en sitios como OpenData
-	my $file_data = read_file("$1.csv",{binmode => ':utf8'});
+	my $file_data = read_file("$1.csv");
 	#Quitamos comas y comillas,  "9,000.00" -> 9000.00
 	$file_data =~ s/\"(\d{1,3}),(\d{3}.\d{2})\"/$1$2/g;
 	#Se quitan todas las comas del final de línea
 	$file_data =~ s/\,{2,}//g;
-	write_file( $outFile, {binmode => ':utf8'}, $file_data );
+	write_file( $outFile,  $file_data );
 	print "[OK] El archivo $outFile ha sido exportado correctamente\n";
 	}
 }
