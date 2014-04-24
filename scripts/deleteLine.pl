@@ -72,8 +72,9 @@ sub principal {
         # Creamos instancia de CSV
         my $csv = Text::CSV->new ( { binary => 1, 
             quote_char          => '"',
-            escape_char         => '',
+            escape_char         => '"',
             always_quote        => 0,
+            allow_loose_quotes => 1,
             eol => $/ } )  # should set binary attribute.
             or die "Cannot use CSV: ".Text::CSV->error_diag ();
         
@@ -82,7 +83,7 @@ sub principal {
         #Creamos una carpeta para el archivo modificado.
         mkpath("modificado");
         #Creamos el archivo y lo guardamos dentro de la carpeta
-        open my $outHandler, ">:encoding(utf8)", "modificado/$in" or die "modificado/$in";
+        open my $outHandler, ">:encoding(iso-8859-1)", "modificado/$in" or die "modificado/$in";
         #my @rows;
         if ( "col" eq $line ){
             #Ordenamos los números de líneas de mayor a menor.
