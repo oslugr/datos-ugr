@@ -17,7 +17,8 @@
 
 #!/usr/bin/env perl
 
-#Versión 1 - Elimina linea/s o columna/s que quieras de un archivo CSV.
+
+#Versión 1.1 - Elimina linea/s o columna/s que quieras de uno o varios archivos CSV.
 
 # Para ejecutar este programa hay que instalar las librerías: File::Slurp, LWP::Simple, Text::CSV
 # Script que elimina o una fila o una columna de un archivo CSV
@@ -47,7 +48,7 @@ sub principal {
         }
         if(scalar(@ARGV) >= 2){
             $line = shift @ARGV;
-            $numLine = int(shift @ARGV);
+
         }else{
             if(scalar(@ARGV)!=0){
                 print "ERROR: no ha introducido los parámetros correctos\n";
@@ -88,7 +89,8 @@ sub principal {
             my @sortedNumLines = sort {$a <= $b}@ARGV;
             while ( my $row = $csv->getline( $inHandler ) ) {
                 for( my $i=0; $i < scalar(@sortedNumLines);$i++){
-                    splice($row,$sortedNumLines[$i],1);
+                    #Se le resta uno porque empiza porque la primera columna empieza en 0
+                    splice($row,$sortedNumLines[$i]-1,1);
                 }
                 $csv->print ($outHandler,$row);
             }
@@ -96,10 +98,10 @@ sub principal {
             #Ordenamos los números de líneas de menor a mayor.
             my @sortedNumLines = sort {$a >= $b}@ARGV;
             if( "fil" eq $line){
+                $numLine = int(shift @ARGV);
                 my $cont=0;
-
                 while (my $row = $csv->getline( $inHandler )){
-                    #Se le resta 1 al número de linea
+                    #Se le resta 1 al número de linea porque el contador de línea empieza en 0
                     if($cont != ($numLine -1)){
                         $csv->print ($outHandler,$row);
                     }else{
