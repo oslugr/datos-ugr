@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 #       CopyRight 2014 Óscar Zafra (oskyar@gmail.com)
 #
@@ -15,7 +15,6 @@
 #       You should have received a copy of the GNU General Public License
 #       along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#!/usr/bin/env perl
 
 
 #Versión 1.1 - Elimina linea/s o columna/s que quieras de uno o varios archivos CSV.
@@ -27,19 +26,10 @@ use File::Path qw(mkpath);
 use Text::CSV;
 use v5.014;
 use strict;
-use utf8;
-use open 'locale'; 
 
 my @inFiles;
 my $line;
 my $numLine;
-
-#Programa
-principal();
-
-
-#Métodos
-sub principal {
 
     #Se guardan los argumentos que empiezan por csv en un array
     if(scalar(@ARGV) > 2){
@@ -121,13 +111,13 @@ sub principal {
                 exit(-1); 
             }
         }
-        close($outHandler);
         close($inHandler);
+        close($outHandler);
     }
-}
 
 sub error{
     say "Ejecuta: perl deleteLine.pl archivo.csv... <fil|col> numberLine...";
     say "|--Ejemplo: perl deleteLine.pl archivo.csv fil 1 4 5";
     say "|--Ejecución: Borrará las filas 1, 4 y 5 de archivo.csv";
+    return -1;
 }
