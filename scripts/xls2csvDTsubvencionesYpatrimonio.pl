@@ -1,3 +1,4 @@
+#!/usr/bin/env perl -w
 #       CopyRight 2014 Óscar Zafra (oskyar@gmail.com)
 #
 #       This program is free software: you can redistribute it and/or modify
@@ -13,7 +14,7 @@
 #       You should have received a copy of the GNU General Public License
 #       along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#!/usr/bin/env perl -w
+
 
 # xls2csvDTsubvencionesYpatrimonio.pl, Este programa trata de exportar los archivos XLS a CSV.
 # No es genérico ya que he usado el programa xls2csv (http://search.cpan.org/~ken/xls2csv-1.07/script/xls2csv) que es de uso libre y he

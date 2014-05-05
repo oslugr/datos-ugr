@@ -1,0 +1,11 @@
+do{ my $x = {
+       'requires' => {
+                       'Test::More' => 0,
+                       'version' => 0
+                     },
+       'conflicts' => {},
+       'build_requires' => {},
+       'test_requires' => {},
+       'recommends' => {}
+     };
+$x; }
