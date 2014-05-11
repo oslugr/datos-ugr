@@ -37,7 +37,7 @@ my $parser  = Spreadsheet::ParseExcel->new();
 my @variables = LoadFile('./retribucionesFromXlsToCsv.yml');
 
 # URL para hacer scraping    
-my $urlToScrape = $variables[0]->{'urlToScrape'};
+my $urlToScrape = $variables[0]->{'urlToScrape2'};
 
 # Preparamos los datos
 my $teamsdata = scraper {
