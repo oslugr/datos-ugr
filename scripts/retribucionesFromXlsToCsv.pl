@@ -61,12 +61,12 @@ for my $i (0 .. $#{$res->{'teams'}}) {
       print "ERROR: ".$parser->error(), " \[$name\]\n";
     }else{
       print "\n\n$name.xls\n\n";
-      splitTables("$name", $workbook);
+      xls2csv("$name", $workbook);
     }
 }
 
 
-sub splitTables{
+sub xls2csv{
 
     my $command = " xls2csv -x \"$_[0].xls\" -b ISO-8859-1 -c csv/\"$_[0].csv\" -a ISO-8859-1 -f";
     system($command);
