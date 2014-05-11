@@ -15,7 +15,7 @@
 #       You should have received a copy of the GNU General Public License
 #       along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#Versión 1 - Descarga los archivos .xls de la página, los pasa a csv y divide las tablas.
+#Versión 1 - Descarga los archivos .xls de la página, los pasa a csv completamente.
 
 #Para ejecutar este programa hay que instalar las librerías, JSON, File::Slurp, LWP::Simple, URI::http
 #Módulo para pasar de xls a csv http://search.cpan.org/~ken/xls2csv/script/xls2csv
@@ -54,9 +54,6 @@ for my $i (0 .. $#{$res->{'teams'}}) {
     # Hash con el texto que acompaña a la URL y la URL {texto, url}
     my $name = $res->{'teams'}[$i];
     $name =~ s/(^ )|( $)//g;
-    #my $url = $res->{'urls'}[$i];
-    #$hashUrls{$name} = $url;
-    #print readlink($res->{'urls'}[$i]);
     # Me descargo los archivos de los enlaces que se han guardado.
     my $code = getstore($res->{urls}[$i],"$name.xls");
     my $workbook = $parser->parse("$name.xls");
@@ -69,23 +66,8 @@ for my $i (0 .. $#{$res->{'teams'}}) {
 }
 
 
-    #Para imprimir el hash en caso de necesitarlo
-    #while ((my $texto,my $url) = each %hashUrls){
-    #    print "$texto = $url\n";
-    #}
-
-
-    #open(O, ">out26.txt");
-    #my $content = get($url);
-    #say ($content=~ /[\w\d\.\_]+\/%21/g);
-
-    #say O $content;
-
-
 sub splitTables{
-    #xls2csv -x $1 -b WINDOWS-1252 -c "$1.csv" -a UTF-8 -f;
-    #print "\n\nARGUMENTO   ".$1."\n\n";
-    #my $command = " xls2csv -x \"$_[1].xls\" -b ISO-8859-1 -c csv/$_[1].csv -a ISO-8859-1 -f";
+
     my $command = " xls2csv -x \"$_[0].xls\" -b ISO-8859-1 -c csv/\"$_[0].csv\" -a ISO-8859-1 -f";
     system($command);
     if ($?) {
