@@ -29,13 +29,12 @@ use Spreadsheet::ParseExcel::Workbook qw(get_name);
 use v5.014;
 use strict;
 use warnings;
-use Switch;
+use YAML qw(LoadFile);
 
 my $file_json;
 my $tabla;
 my $linea;
-use constant false => 0;
-use constant true  => 1;
+
 my %hashUrls;
 my $content;
 
@@ -43,8 +42,11 @@ my $workbook;
 
 my $parser  = Spreadsheet::ParseExcel->new();
 
+my @variables = LoadFile('./retribucionesFromXlsToCsv.yml');
+
 # URL para hacer scraping    
-my $urlToScrape = "http://gerencia.ugr.es/habilitacion/pages/legislacion/tabla_retribuciones";
+my $urlToScrape = $variables[0]->{'urlToScrape'};
+print $urlToScrape;
 # Preparamos los datos
 my $teamsdata = scraper {
     # Guardaremos el enlace de las url que tengan esta estructura
@@ -56,23 +58,23 @@ my $teamsdata = scraper {
 # "Scrapeando" los datos
 my $res = $teamsdata->scrape(URI->new($urlToScrape));
 mkpath("csv");
-for my $i (0 .. $#{$res->{'teams'}}) {
-    # Hash con el texto que acompaña a la URL y la URL {texto, url}
-    my $name = $res->{'teams'}[$i];
-    $name =~ s/(^ )|( $)//g;
-    #my $url = $res->{'urls'}[$i];
-    #$hashUrls{$name} = $url;
-    print readlink($res->{'urls'}[$i]);
-    # Me descargo los archivos de los enlaces que se han guardado.
-    my $code = getstore($res->{urls}[$i],"$name.xls");
-    my $workbook = $parser->parse("$name.xls");
-    if ( !defined $workbook ){
-        print "ERROR: ".$parser->error(), " \[$name\]\n";
-    }else{
- 		print "\n\n$name\n\n";
-        splitTables("$name", $workbook);            
-    }
-}
+# for my $i (0 .. $#{$res->{'teams'}}) {
+#     # Hash con el texto que acompaña a la URL y la URL {texto, url}
+#     my $name = $res->{'teams'}[$i];
+#     $name =~ s/(^ )|( $)//g;
+#     #my $url = $res->{'urls'}[$i];
+#     #$hashUrls{$name} = $url;
+#     #print readlink($res->{'urls'}[$i]);
+#     # Me descargo los archivos de los enlaces que se han guardado.
+#     my $code = getstore($res->{urls}[$i],"$name.xls");
+#     my $workbook = $parser->parse("$name.xls");
+#     if ( !defined $workbook ){
+#       print "ERROR: ".$parser->error(), " \[$name\]\n";
+#     }else{
+#       print "\n\n$name\n\n";
+#       splitTables("$name", $workbook);
+#     }
+# }
 
 
     #Para imprimir el hash en caso de necesitarlo
@@ -93,9 +95,9 @@ sub splitTables{
     #print "\n\nARGUMENTO   ".$1."\n\n";
     #my $command = " xls2csv -x \"$_[1].xls\" -b ISO-8859-1 -c csv/$_[1].csv -a ISO-8859-1 -f";
     my $command = " xls2csv -x ./Retribuciones\ Docentes\ contratados.xls -b ISO-8859-1 -c csv/prueba.csv -a ISO-8859-1 -f";
-	system($command);
-	if ($?) {
-		print "[ERROR] command failed: $!\n";
-		print "[ERROR] No se ha podido ejecutar el comando para la entrada \"$1\" y la salida: \"$1.csv\"\n";
-	}
+    system($command);
+    if ($?) {
+      print "[ERROR] command failed: $!\n";
+      print "[ERROR] No se ha podido ejecutar el comando para la entrada \"$1\" y la salida: \"$1.csv\"\n";
+    }
 }
