@@ -45,7 +45,7 @@ my $format = "xls";
 my $type = $mimetypes->mimeTypeOf($format);
 
 # URL para hacer scraping    
-my $url_to_scrape = $variables[0]->{'urlToScrape2'};
+my $url_to_scrape = $variables[0]->{'urlToScrape'};
 
 # Preparamos los datos
 my $teamsdata = scraper {
@@ -81,7 +81,7 @@ for my $i (0 .. $#{$res->{'teams'}}) { ### Procesando [===|         ] % Terminad
 }
 
 sub xls2csv{
-    my $command = " xls2csv -x \"$_[0].$format\" -b ISO-8859-1 -c csv/\"$_[0].csv\" -a ISO-8859-1 -f -q";
+    my $command = " xls2csv -x \"$_[0].$format\" -b ISO-8859-1 -c csv/\"$_[0].csv\" -a UTF-8 -f -q";
     
     ## Archivo creado: $_[0].".csv"
     print color 'bold green';
