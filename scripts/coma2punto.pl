@@ -23,11 +23,42 @@ use File::Slurp qw(read_file write_file);
 while (@ARGV){
 	my $file_name= shift @ARGV;
 	my $file_data=read_file($file_name);
-	$file_data =~ s/\"(\d+)\.(\d*)\"/"$1,$2"/g;
-	$file_data =~ s/(\d+)\.(\d*)/"$1,$2"/g;
-	$file_data =~ s/\"\s*(\d+)\s*\"/"$1,00"/g;
-	$file_data =~ s/\,\s*(\d+)\s*[\,\$]/,"$1,00",/g;
+	#Números negativos/positivos con/sin coma de decimales se le añaden decimales.
+	if($file_data =~ /(\-?\d{1,3}\.\d{3}(\,\d{2})?)/u){
+		#Quitamos los puntos a los miles
+		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})\.(\d{3})(\,\d+)?/$1$2$3$4$5/g;
+		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})(\,\d+)?/$1$2$3$4/g;
+		$file_data =~ s/(\d{1,3})\.(\d{3})(\,\d+)?/$1$2$3/g;
+	}
+
+	#Quitamos espacios antes y después de ""
+	#$file_data =~ s/(\ +\")|(\"\ +)/"/g;
+	$file_data =~  s/^\n//g;
+	if($file_data =~ /(\-?\d+\.\d{2}[\ \,\"])/u){
+		# Quitamos las " "
+		$file_data =~ s/\"(\-?[\d\.]+)\"/$1/g;
+		# Ponemos nº.nº
+		$file_data =~ s/\,\ *(\-?\d+)\ *\,/,$1.00,/g;
+		$file_data =~ s/\,\ *(\-?\d+)\ *\,/,$1.00,/g;
+		# Ponemos nº.nº para los números que estén al final
+		$file_data =~ s/\,\ *(\-?\d+)$/,$1.00/gm;
+		# Ponemos "nº.nº"
+		$file_data =~ s/\,\ *(\-?\d+\.\d+)\ *\,/,"$1",/g;
+		$file_data =~ s/\,\ *(\-?\d+\.\d+)\ *\,/,"$1",/g;
+		# Ponemos "nº.nº" a los que están al final
+		$file_data =~ s/\,\ *(\-?\d+\.\d+)$/,"$1"/gm;
+	}
+	#Cambio -931.23 por "-931,23" ó "31.02" por "31,00", etc...
+	#$file_data =~ s/\s*(\-?\d+)\.(\d*)\s*/"$1,$2"/gm;
+	$file_data =~ s/(\"\s*(\-?\d+)\.(\d*)\s*\")|(\s*(\-?\d+)\.(\d*)\s*)/"$2,$3"/gm;
+	#Se quitan filas vacías;
+	$file_data =~ s/^(\s*\,)+$//gm;
+	#Se cambia columna vacía por un nombre;
+	####$file_data =~ s/^(\s*\,)(\S*)//g;
+	#Si la primera celda está vacía y en la segunda hay texto, se le añade un guión para que lo detecte ckan
+#	$file_data =~ s/^(\s*\,)(.*)/-,$2,/gm;
+	#Quitamos filas vacías
+	
 
 	write_file($file_name, $file_data);
 }
-
