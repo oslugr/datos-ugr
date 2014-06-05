@@ -1,38 +1,36 @@
 Cap.,Art.,Denominación,Artículo,Capítulo
-3,"Tasas, precios públicos y otros ingresos",,,"55.940.000,00"
-,30,Tasas,2.000.000,
-,31,Precios públicos,44.840.000,
-,32,Ingresos por prestación de servicios,8.675.000,
-,33,Venta de bienes,250.000,
-,39,Ingresos diversos,175.000,
-4,Transferencias corrientes,,,"177.713.743,13"
-,40,De la Administración General del Estado,10.817.000,
-,41,De Organismos autónomos administrativos,110.000,
-,42,De la Seguridad Social,2.000.000,
-,45,De Comunidades Autónomas,159.571.743,
-,46,De Corporaciones Locales,90.000,
-,47,De empresas privadas,1.125.000,
-,49,Del exterior,4.000.000,
-5,Ingresos patrimoniales,,,"1.506.000,00"
-,52,Intereses de depósitos,500.000,
-,54,Rentas de bienes inmuebles,600.000,
-,55,Producto de concesiones y aprov.especiales,400.000,
-,59,Otros ingresos patrimoniales ,6.000,
-7,Transferencias de capital,,,"171.762.965,18"
-,70,De la Administración General del Estado,23.265.000,
-,71,De Organismos autónomos administrativos,693.000,
-,74,De empresas públicas y otros entes públicos,400.000,
-,75,De Comunidades Autónomas,142.224.965,
-,76,De Corporaciones Locales,30.000,
-,77,De empresas privadas,950.000,
-,78,De familias e instituciones sin fines de lucro,200.000,
-,79,Del exterior,4.000.000,
-8,Activos financieros,,,"650.000,00"
-,82,Reintegro de préstamos concedidos,650.000,
-,,Total Operaciones Corrientes,,235.159.743
-,,Total Operaciones de Capital,,172.412.965
-,,,,
-,,Total Operaciones No Financieras,,406.922.708
-,,Total Operaciones Financieras,,650.000
-,,,,
-,,TOTAL ESTADO DE INGRESOS,,407.572.708
+3,"Tasas, precios públicos y otros ingresos",,,"55940000,00"
+-,30,Tasas,2000000,,
+-,31,Precios públicos,44840000,,
+-,32,Ingresos por prestación de servicios,8675000,,
+-,33,Venta de bienes,250000,,
+-,39,Ingresos diversos,175000,,
+4,Transferencias corrientes,,,"177713743,13"
+-,40,De la Administración General del Estado,10817000,,
+-,41,De Organismos autónomos administrativos,110000,,
+-,42,De la Seguridad Social,2000000,,
+-,45,De Comunidades Autónomas,159571743,,
+-,46,De Corporaciones Locales,90000,,
+-,47,De empresas privadas,1125000,,
+-,49,Del exterior,4000000,,
+5,Ingresos patrimoniales,,,"1506000,00"
+-,52,Intereses de depósitos,500000,,
+-,54,Rentas de bienes inmuebles,600000,,
+-,55,Producto de concesiones y aprov.especiales,400000,,
+-,59,Otros ingresos patrimoniales ,6000,,
+7,Transferencias de capital,,,"171762965,18"
+-,70,De la Administración General del Estado,23265000,,
+-,71,De Organismos autónomos administrativos,693000,,
+-,74,De empresas públicas y otros entes públicos,400000,,
+-,75,De Comunidades Autónomas,142224965,,
+-,76,De Corporaciones Locales,30000,,
+-,77,De empresas privadas,950000,,
+-,78,De familias e instituciones sin fines de lucro,200000,,
+-,79,Del exterior,4000000,,
+8,Activos financieros,,,"650000,00"
+-,82,Reintegro de préstamos concedidos,650000,,
+-,,Total Operaciones Corrientes,,235159743,
+-,,Total Operaciones de Capital,,172412965,
+-,,Total Operaciones No Financieras,,406922708,
+-,,Total Operaciones Financieras,,650000,
+-,,TOTAL ESTADO DE INGRESOS,,407572708,

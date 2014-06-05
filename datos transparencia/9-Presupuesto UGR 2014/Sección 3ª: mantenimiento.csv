@@ -1,32 +1,32 @@
 ORGÁNICA,CENTRO,"SUPERFICIE
 PONDERADA",IMPORTE
-,,,
-3010010000,Facultad de Filosofía y Letras,47.530,169.206
-3010020000,Facultad de Derecho,31.459,111.995
-3010030000,Facultad de Ciencias,119.845,426.648
-3010040000,Facultad de Medicina,49.804,177.301
-3010050000,Facultad de Farmacia,44.088,156.952
-3010060000,Facultad de Bellas Artes,29.788,106.046
-3010070000,Facultad de Odontología,19.756,70.331
-3010080000,Facultad de Ciencias de la Educación,30.572,108.837
-3010090000,Facultad de Ciencias Políticas y Sociología,19.560,69.634
-3010100000,"E.T.S. de Ingenieros de Caminos, Canales y Puertos",34.212,121.795
-3010110000,Facultad de Ciencias del Deporte,24.476,87.135
-3010190000,Facultad de Tradución e Interpretación,11.299,40.224
-3010230000,Facultad de Educación y Humanidades de Ceuta,13.284,47.290
-3010240000,Facultad de Educación y Humanidades de Melilla,6.518,23.205
-3010250000,Facultad de Psicología,19.196,68.338
-3010260000,Facultad de Ciencias Económicas y Empresariales,28.365,100.980
-3010280000,Facultad de Ciencias Sociales de Melilla,5.144,18.314
-3010290000,Facultad de Comunicación  y Documentación,16.266,57.907
-3010300000,E.T.S. de Ingeniería de Edificación,26.056,92.759
-3010330000,Facultad de Ciencias de la Salud de Granada,10.191,36.278
-3010350000,Facultad de Trabajo Social,4.249,15.126
-3010400000,Facultad de Ciencias del Trabajo,9.030,32.147
-3010410000,E.T.S. de Arquitectura,7.031,25.031
-3010440000,E.T.S. de Ingenierías de Informática y Telecomunicación,23.303,82.960
-3010810000,Facultad de Ciencias de la Salud de Melilla,484,15.000
-3010900000,Facultad de Ciencias de la Salud de Ceuta,6.524,23.225
-3019990000,Contrato Programa a Centros,0,333.352
-3019990000,Cumplimiento Ley de Morosidad,,45.693
-TOTALES,,638.031,2.663.710
+
+3010010000,Facultad de Filosofía y Letras,"47530,00","169206,00"
+3010020000,Facultad de Derecho,"31459,00","111995,00"
+3010030000,Facultad de Ciencias,"119845,00","426648,00"
+3010040000,Facultad de Medicina,"49804,00","177301,00"
+3010050000,Facultad de Farmacia,"44088,00","156952,00"
+3010060000,Facultad de Bellas Artes,"29788,00","106046,00"
+3010070000,Facultad de Odontología,"19756,00","70,331"
+3010080000,Facultad de Ciencias de la Educación,"30572,00","108837,00"
+3010090000,Facultad de Ciencias Políticas y Sociología,"19560,00","69,634"
+3010100000,"E.T.S. de Ingenieros de Caminos, Canales y Puertos","34212,00","121795,00"
+3010110000,Facultad de Ciencias del Deporte,"24476,00","87,135"
+3010190000,Facultad de Tradución e Interpretación,"11299,00","40,224"
+3010230000,Facultad de Educación y Humanidades de Ceuta,"13284,00","47,290"
+3010240000,Facultad de Educación y Humanidades de Melilla,"6518,00","23,205"
+3010250000,Facultad de Psicología,"19196,00","68,338"
+3010260000,Facultad de Ciencias Económicas y Empresariales,"28365,00","100980,00"
+3010280000,Facultad de Ciencias Sociales de Melilla,"5144,00","18,314"
+3010290000,Facultad de Comunicación  y Documentación,"16266,00","57,907"
+3010300000,E.T.S. de Ingeniería de Edificación,"26056,00","92,759"
+3010330000,Facultad de Ciencias de la Salud de Granada,"10191,00","36,278"
+3010350000,Facultad de Trabajo Social,"4249,00","15,126"
+3010400000,Facultad de Ciencias del Trabajo,"9030,00","32,147"
+3010410000,E.T.S. de Arquitectura,"7031,00","25,031"
+3010440000,E.T.S. de Ingenierías de Informática y Telecomunicación,"23303,00","82,960"
+3010810000,Facultad de Ciencias de la Salud de Melilla,"484,00","15000,00"
+3010900000,Facultad de Ciencias de la Salud de Ceuta,"6524,00","23,225"
+3019990000,Contrato Programa a Centros,"0,00","333352,00"
+3019990000,Cumplimiento Ley de Morosidad,,"45693,00"
+TOTALES,,"638031,00","2663710,00"

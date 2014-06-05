@@ -25,11 +25,13 @@ while (@ARGV){
 	my $file_data=read_file($file_name);
 	#Números negativos/positivos con/sin coma de decimales se le añaden decimales.
 	if($file_data =~ /(\-?\d{1,3}\.\d{3}(\,\d{2})?)/u){
+
 		#Quitamos los puntos a los miles
-		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})\.(\d{3})(\,\d+)?/$1$2$3$4$5/g;
-		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})(\,\d+)?/$1$2$3$4/g;
-		$file_data =~ s/(\d{1,3})\.(\d{3})(\,\d+)?/$1$2$3/g;
-	}
+		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})\.(\d{3})(\,\d{2})?/$1$2$3$4$5/g;
+		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})(\,\d{2})?/$1$2$3$4/g;
+		$file_data =~ s/(\d{1,3})\.(\d{3})(\,\d{2})?/$1$2$3/g;
+}
+	
 
 	#Quitamos espacios antes y después de ""
 	#$file_data =~ s/(\ +\")|(\"\ +)/"/g;
