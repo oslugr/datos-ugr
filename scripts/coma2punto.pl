@@ -34,7 +34,7 @@ while (@ARGV){
 	#Quitamos espacios antes y después de ""
 	#$file_data =~ s/(\ +\")|(\"\ +)/"/g;
 	$file_data =~  s/^\n//g;
-	if($file_data =~ /(\-?\d+\.\d{2}[\ \,\"])/u){
+	if($file_data =~ /(\-?\d+\.\d{2})/u){
 		# Quitamos las " "
 		$file_data =~ s/\"(\-?[\d\.]+)\"/$1/g;
 		# Ponemos nº.nº
@@ -49,14 +49,13 @@ while (@ARGV){
 		$file_data =~ s/\,\ *(\-?\d+\.\d+)$/,"$1"/gm;
 	}
 	#Cambio -931.23 por "-931,23" ó "31.02" por "31,00", etc...
-	#$file_data =~ s/\s*(\-?\d+)\.(\d*)\s*/"$1,$2"/gm;
-	$file_data =~ s/(\"\s*(\-?\d+)\.(\d*)\s*\")|(\s*(\-?\d+)\.(\d*)\s*)/"$2,$3"/gm;
+	$file_data =~ s/(\"\s*(\-?\d+)\.(\d*)\s*\")/"$2,$3"/gm;
 	#Se quitan filas vacías;
 	$file_data =~ s/^(\s*\,)+$//gm;
 	#Se cambia columna vacía por un nombre;
 	####$file_data =~ s/^(\s*\,)(\S*)//g;
 	#Si la primera celda está vacía y en la segunda hay texto, se le añade un guión para que lo detecte ckan
-#	$file_data =~ s/^(\s*\,)(.*)/-,$2,/gm;
+	$file_data =~ s/^(\s*\,)(.*)/-,$2,/gm;
 	#Quitamos filas vacías
 	
 
