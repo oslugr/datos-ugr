@@ -28,9 +28,12 @@ while (@ARGV){
 
 		#Quitamos los puntos a los miles
 		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})\.(\d{3})(\,\d{2})?/$1$2$3$4$5/g;
+		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})\.(\d{3})(\,\d{2})?/$1$2$3$4$5/g;
+		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})(\,\d{2})?/$1$2$3$4/g;
 		$file_data =~ s/(\d{1,3})\.(\d{3})\.(\d{3})(\,\d{2})?/$1$2$3$4/g;
 		$file_data =~ s/(\d{1,3})\.(\d{3})(\,\d{2})?/$1$2$3/g;
-}
+		$file_data =~ s/(\d{1,3})\.(\d{3})(\,\d{2})?/$1$2$3/g;
+	}
 	
 
 	#Quitamos espacios antes y después de ""
