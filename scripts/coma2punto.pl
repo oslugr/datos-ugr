@@ -24,6 +24,17 @@ while (@ARGV){
 	my $file_name= shift @ARGV;
 	my $file_data=read_file($file_name);
 	#Números negativos/positivos con/sin coma de decimales se le añaden decimales.
+	if($file_data =~ /\,(0{1})\.(\d+)\s*\,/u){
+		$file_data =~ s/\,(\-?0{1})\.(\d+)\s*\,/,"$1,$2",/g;
+	}
+
+	if($file_data =~ /\,(\d+)\.(\d{4,})\,/u){
+		$file_data =~ s/\,(\d+)\.(\d{4,})\,/,"$1,$2",/g;
+		$file_data =~ s/\,(\d+)\.(\d{1,2})\,/,"$1,$2",/g;
+	}
+
+
+
 	if($file_data =~ /(\-?\d{1,3}\.\d{3}(\,\d{2})?)/u){
 
 		#Quitamos los puntos a los miles
