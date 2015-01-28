@@ -26,7 +26,7 @@ use Text::CSV;
 
 while(@ARGV)
 {
-    my $csv = Text::CSV->new({ sep_char => ',' });
+    my $csv = Text::CSV->new();
 
     my $i = 0;
     my $j = 0;
@@ -40,7 +40,7 @@ while(@ARGV)
     # Abrimos archivo CSV
     my $file = shift @ARGV or die "Necesita fichero CSV como parámetro\n";
 
-    open(ENTRADA, '<:encoding(iso_8859-1)', $file) or die "Error en apertura de fichero de lectura '$file' $!\n";
+    open(ENTRADA, '<:encoding(iso-8859-1)', $file) or die "Error en apertura de fichero de lectura '$file' $!\n";
 
     # Pasamos a matriz
     while (my $line = <ENTRADA>)
@@ -90,14 +90,30 @@ while(@ARGV)
     # Volvemos a abrir el archivo, ahora en forma de escritura
     open(SALIDA, '>:encoding(iso-8859-1)', $file) or die "Error en apertura de fichero de escritura '$file' $!\n";
 
+    @num_cols = @{$copy[0]};
+    #Volcamos el contenido de la matriz en el fichero correspondiente
     for($i = 0; $i <= $#copy; $i++)
     {
-        @num_cols = @{$copy[$i]};
         for($j = 0; $j < $#num_cols; $j++)
         {
-            print SALIDA "\"$copy[$i][$j]\",";
+            #Hay campos con comas, ojo con ellos
+            if($copy[$i][$j] =~ /\,/u)
+            {
+                #Añadimos comillas dobles
+                $copy[$i][$j] =~ s/(.+)/"$1"/;
+            }
+
+            print SALIDA $copy[$i][$j];
+            print SALIDA ",";
         }
-        print SALIDA "\"$copy[$i][$j]\"\n";
+        #Hay campos con comas, ojo con ellos
+        if($copy[$i][$j] =~ /\,/u)
+        {
+            #Añadimos comillas dobles
+            $copy[$i][$j] =~ s/(.+)/"$1"/;
+        }
+        print SALIDA $copy[$i][$j];
+        print SALIDA "\n";
     }
     # Realizada la escritura, cerramos
     close(SALIDA);
@@ -138,7 +154,7 @@ sub mod()
     }
 
     # Si hay decimales distintos de ,00 -> añadir ,00 a los que no tengan
-    if($index2 != $#mat && $index2 > 0 && $index2 != $index3)
+    if($index2 > 0 && $index2 != $index3)
     {
         $index = 1;
 
@@ -164,12 +180,8 @@ sub mod()
         while($index <= $#mat)
         {
             $elem = $mat[$index];
-
-            if($elem =~ /(\-?\d+\,00)/u)
-            {
-                $elem =~ s/(\-?\d+)\,00/$1/;
-                $mat[$index] = $elem;
-            }
+            $elem =~ s/(\-?\d+)\,00/$1/;
+            $mat[$index] = $elem;
 
             $index++;
         }
