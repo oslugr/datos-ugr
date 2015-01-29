@@ -1,21 +1,21 @@
 Tipo de Estadística,,2005,2006,2007,2008,2009,2010
-Plan Propio,Incentivación actividad investigadora," € 271,000 "," € 288,000 "," € 270,000 "," € 315,600 "," € 289,720 "," € 250,000 "
-Plan Propio,Potenciación recursos humanos," € 1,020,000 "," € 1,300,000 "," € 1,500,000 "," € 1,560,000 "," € 1,580,292 "," € 2,234,716 "
-Plan Propio,Movilidad y perfeccionamiento," € 172,000 "," € 170,000 "," € 180,000 "," € 210,000 "," € 184,368 "," € 150,000 "
-Plan Propio,Reconocimiento actividad investigadora," € 69,000 "," € 52,000 "," € 52,000 "," € 54,000 "," € 52,676 "," € 43,500 "
-Plan Propio,Acciones complementarias," € 340,000 "," € 408,912 "," € 288,860 "," € 268,800 "," € 316,058 "," € 201,784 "
-Plan Propio,Ayuda transferencia resultados, - , - , - , - ," € 210,706 "," € 120,000 "
+Plan Propio,Incentivación actividad investigadora,271000,288000,270000,315600,289720,250000
+Plan Propio,Potenciación recursos humanos,1020000,1300000,1500000,1560000,1580292,2234716
+Plan Propio,Movilidad y perfeccionamiento,172000,170000,180000,210000,184368,150000
+Plan Propio,Reconocimiento actividad investigadora,69000,52000,52000,54000,52676,43500
+Plan Propio,Acciones complementarias,340000,408912,288860,268800,316058,201784
+Plan Propio,Ayuda transferencia resultados, - , - , - , - ,210706,120000
 Proyectos Investigación,Plan Nacional,95,104,109,123,105,111
-Proyectos Investigación,Plan Nacional," 6,401,405 € "," 7,398,468 € "," 8,549,668 € "," 10,917,830 € "," 9,709,161 € "," 8,831,911 € "
+Proyectos Investigación,Plan Nacional,6401405,7398468,8549668,10917830,9709161,8831911
 Proyectos Investigación,Plan Andaluz - Excelencia,-,54,80,80,46,50
-Proyectos Investigación,Plan Andaluz,-," 6,294,902 € "," 11,833,030 € "," 18,659,254 € "," 8,703,394 € "," 8,097,540 € "
+Proyectos Investigación,Plan Andaluz,-,6294902,11833030,18659254,8703394,8097540
 Proyectos Investigación,Proyectos FIS,11,8,7,3,1,8
-Proyectos Investigación,Proyectos FIS," 529,345 € "," 475,524 € "," 560,775 € "," 300,707 € "," 226,028 € "," 480,000 € "
+Proyectos Investigación,Proyectos FIS,529345,475524,560775,300707,226028,480000
 Proyectos Investigación,Acciones Complementarias,5,29,25,26,31,16
-Proyectos Investigación,Acciones Complementarias," 42,000 € "," 510,400 € "," 336,499 € "," 249,300 € "," 462,400 € "," 165,700 € "
+Proyectos Investigación,Acciones Complementarias,42000,510400,336499,249300,462400,165700
 Publicaciones ISI,Nº pub. WoS (Thomson),1019,1218,1432,1526,1662,1733
 Publicaciones ISI,Nº pub. Citables  WoS (Thomson),954,1080,1289,1369,1510,1609
-Publicaciones ISI,Promedio de Impact Factor,1.94,2.01,2.16,2.23,2.42,2.46
+Publicaciones ISI,Promedio de Impact Factor,"1,94","2,01","2,16","2,23","2,42","2,46"
 Publicaciones ISI,Sumatorio de Impact Factor,1740,2068,2556,2793,3406,3701
 Publicaciones ISI,Nº 1º Cuartil ,378,456,523,564,718,803
 Publicaciones ISI,% 1º Cuartil,40%,42%,41%,41%,48%,50%
@@ -28,12 +28,12 @@ Publicaciones ISI,En Revistas JCR - Social Sciences Ed,,,,,,
 Publicaciones ISI,Nº pub Citables WoS,79,89,144,138,196,231
 Publicaciones ISI,% 1º Cuartil,33%,36%,31%,22%,24%,27%
 Publicaciones ISI,% Top3,8%,6%,3%,4%,6%,4%
-Publicaciones ISI,Promedio de Impact Factor,1.33,1.33,1.28,1.44,1.33,1.36
+Publicaciones ISI,Promedio de Impact Factor,"1,33","1,33","1,28","1,44","1,33","1,36"
 Publicaciones ISI,En Revistas JCR - Science Ed,,,,,,
 Publicaciones ISI,Nº pub Citables WoS,838,964,1070,1149,1250,1322
 Publicaciones ISI,% 1º Cuartil,44%,45%,45%,47%,56%,58%
 Publicaciones ISI,% Top3,10%,10%,10%,10%,10%,9%
-Publicaciones ISI,Promedio de Impact Factor,2.01,2.06,2.27,2.33,2.59,2.64
+Publicaciones ISI,Promedio de Impact Factor,"2,01","2,06","2,27","2,33","2,59","2,64"
 Recursos Humanos,Becas FPDI (junta),,,,,,
 Recursos Humanos,Docentes,---,---,---,---,36,38
 Recursos Humanos,Predoc en proyectos Excelencia,---,33,43,48,32,42
