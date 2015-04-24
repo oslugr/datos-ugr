@@ -1,4 +1,4 @@
-ORGÁNICA,CENTRO,"Actividad Académ.",Mantenim.,TOTAL
+ORGÁNICA,CENTRO,Actividad Académ.,Mantenim.,TOTAL
 3010010000,Facultad de Filosofía y Letras,45147,169206,214353
 3010020000,Facultad de Derecho,42428,111995,154423
 3010030000,Facultad de Ciencias,53966,426648,480614
@@ -25,6 +25,4 @@ ORGÁNICA,CENTRO,"Actividad Académ.",Mantenim.,TOTAL
 3010440000,E.T.S. de Ingenierías de Informática y Telecomunicación,19923,82960,102883
 3010810000,Facultad de Ciencias de la Salud de Melilla,2759,15000,17759
 3010900000,Facultad de Ciencias de la Salud de Ceuta,4451,23225,27676
-Subtotal a Centros,,509307,2284664,2793971
 3019990000,Contratos Programa e Incentivos a Centros,136582,379046,515628
-TOTALES,,645889,2663710,3309599

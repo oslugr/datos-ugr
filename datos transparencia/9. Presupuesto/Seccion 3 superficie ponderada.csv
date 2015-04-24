@@ -1,28 +1,27 @@
-"ORGÁNICA","CENTRO","Superficie","Coef.","Superficie","Coef.","Superficie","Coef.","Superficie Ponderada"
-"3010010000","Facultad de Filosofía y Letras","19458","2,00","3075","1,50","3201","1,25","47530"
-"3010020000","Facultad de Derecho+Aulario","12851","2,00","4330","1,25","197","1,75","31459"
-"3010030000","Facultad de Ciencias+Aulario+Módulos+Mecenas+Ampl.","46208","2,00","4356","1,50","16716","1,25","119845"
-"3010040000","Facultad de Medicina","24745","2,00","251","1,25","","","49804"
-"3010050000","Facultad de Farmacia","25193","1,75","","","","","44088"
-"3010060000","Facultad de Bellas Artes+ P. Almirante + Aulario","12221","2,00","2610","1,50","1145","1,25","29788"
-"3010070000","Facultad de Odontología","9878","2,00","","","","","19756"
-"3010080000","Facultad de Ciencias de la Educación + Biblioteca","14857","1,75","3658","1,25","","","30572"
-"3010090000","Facultad de Ciencias Políticas y Sociología","9780","2,00","","","","","19560"
-"3010100000","E.T.S. de Ingenieros de Caminos, Canales y Puertos","22808","1,50","","","","","34212"
-"3010110000","Facultad de Ciencias del  Deporte","8655","1,75","7464","1,25","","","24476"
-"3010190000","Facultad de Tradución e Interpretación+Buensuceso+Casona","4582","2,00","1449","1,25","259","1,25","11299"
-"3010230000","Facultad de Educación y Humanidades de Ceuta","10627","1,25","","","","","13284"
-"3010240000","Facultad de Educación y Humanidades de Melilla","2376","2,00","1413","1,25","","","6518"
-"3010250000","Facultad de Psicología","10007","1,75","1347","1,25","","","19196"
-"3010260000","Facultad de Ciencias Económicas y Empresariales","9649","1,75","7653","1,50","","","28365"
-"3010280000","Facultad de Ciencias Sociales de Melilla","1689","2,00","1413","1,25","","","5144"
-"3010290000","Facultad de Comunicación  y Documentación","8133","2,00","","","","","16266"
-"3010300000","E.T.S. de Ingeniería de Edificación","13028","2,00","","","","","26056"
-"3010330000","Facultad de Ciencias de la Salud","2819","2,00","3642","1,25","","","10191"
-"3010350000","Facultad de Trabajo Social","2428","1,75","","","","","4249"
-"3010400000","Facultad de Ciencias del Trabajo","5160","1,75","","","","","9030"
-"3010410000","E.T.S. de Arquitectura + Aulas prefabricadas (2010)","4465","1,50","267","1,25","","","7031"
-"3010440000","E.T.S. de Ingenierías de Informática + C.I.T.I.C+A.prefab.+locales","12213","1,50","3987","1,25","","","23303"
-"3010810000","Facultad de Ciencias de la Salud de Melilla","242","2,00","","","","","484"
-"3010900000","Facultad de Ciencias de la Salud de Ceuta","5219","1,25","","","","","6524"
-"-","TOTALES","299291","","46915","","21518","","638031"
+ORGÁNICA,CENTRO,Superficie,Coef.,Superficie,Coef.,Superficie,Coef.,Superficie Ponderada
+3010010000,Facultad de Filosofía y Letras,19458,2,3075,"1,5",3201,"1,25",47530
+3010020000,Facultad de Derecho+Aulario,12851,2,4330,"1,25",197,"1,75",31459
+3010030000,Facultad de Ciencias+Aulario+Módulos+Mecenas+Ampl.,46208,2,4356,"1,5",16716,"1,25",119845
+3010040000,Facultad de Medicina,24745,2,251,"1,25",No especificado,No especificado,49804
+3010050000,Facultad de Farmacia,25193,"1,75",No especificado,No especificado,No especificado,No especificado,44088
+3010060000,Facultad de Bellas Artes+ P. Almirante + Aulario,12221,2,2610,"1,5",1145,"1,25",29788
+3010070000,Facultad de Odontología,9878,2,No especificado,No especificado,No especificado,No especificado,19756
+3010080000,Facultad de Ciencias de la Educación + Biblioteca,14857,"1,75",3658,"1,25",No especificado,No especificado,30572
+3010090000,Facultad de Ciencias Políticas y Sociología,9780,2,No especificado,No especificado,No especificado,No especificado,19560
+3010100000,"E.T.S. de Ingenieros de Caminos, Canales y Puertos",22808,"1,5",No especificado,No especificado,No especificado,No especificado,34212
+3010110000,Facultad de Ciencias del  Deporte,8655,"1,75",7464,"1,25",No especificado,No especificado,24476
+3010190000,Facultad de Tradución e Interpretación+Buensuceso+Casona,4582,2,1449,"1,25",259,"1,25",11299
+3010230000,Facultad de Educación y Humanidades de Ceuta,10627,"1,25",No especificado,No especificado,No especificado,No especificado,13284
+3010240000,Facultad de Educación y Humanidades de Melilla,2376,2,1413,"1,25",No especificado,No especificado,6518
+3010250000,Facultad de Psicología,10007,"1,75",1347,"1,25",No especificado,No especificado,19196
+3010260000,Facultad de Ciencias Económicas y Empresariales,9649,"1,75",7653,"1,5",No especificado,No especificado,28365
+3010280000,Facultad de Ciencias Sociales de Melilla,1689,2,1413,"1,25",No especificado,No especificado,5144
+3010290000,Facultad de Comunicación  y Documentación,8133,2,No especificado,No especificado,No especificado,No especificado,16266
+3010300000,E.T.S. de Ingeniería de Edificación,13028,2,No especificado,No especificado,No especificado,No especificado,26056
+3010330000,Facultad de Ciencias de la Salud,2819,2,3642,"1,25",No especificado,No especificado,10191
+3010350000,Facultad de Trabajo Social,2428,"1,75",No especificado,No especificado,No especificado,No especificado,4249
+3010400000,Facultad de Ciencias del Trabajo,5160,"1,75",No especificado,No especificado,No especificado,No especificado,9030
+3010410000,E.T.S. de Arquitectura + Aulas prefabricadas (2010),4465,"1,5",267,"1,25",No especificado,No especificado,7031
+3010440000,E.T.S. de Ingenierías de Informática + C.I.T.I.C+A.prefab.+locales,12213,"1,5",3987,"1,25",No especificado,No especificado,23303
+3010810000,Facultad de Ciencias de la Salud de Melilla,242,2,No especificado,No especificado,No especificado,No especificado,484
+3010900000,Facultad de Ciencias de la Salud de Ceuta,5219,"1,25",No especificado,No especificado,No especificado,No especificado,6524

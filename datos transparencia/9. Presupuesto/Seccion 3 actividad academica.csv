@@ -1,4 +1,4 @@
-ORGÁNICA,CENTRO,"NÚMERO DE ALUMNOS",IMPORTE
+ORGÁNICA,CENTRO,NÚMERO DE ALUMNOS,IMPORTE
 3010010000,Facultad de Filosofía y Letras,4778,45147
 3010020000,Facultad de Derecho,4490,42428
 3010030000,Facultad de Ciencias,5711,53966
@@ -25,7 +25,6 @@ ORGÁNICA,CENTRO,"NÚMERO DE ALUMNOS",IMPORTE
 3010440000,E.T.S. de Ingenierías de Informática y Telecomunicación,2108,19923
 3010810000,Facultad de Ciencias de la Salud de Melilla,292,2759
 3010900000,Facultad de Ciencias de la Salud de Ceuta,471,4451
-3019990000,Contrato Programa a Centros,,76396
-3019990000,Incentivos al Cumplimiento Ley de Morosidad,,10186
-3019990000,Incentivos a Recaudación Derechos de Matrícula,,50000
-TOTALES,,53895,645889
+3019990000,Contrato Programa a Centros,0,76396
+3019990000,Incentivos al Cumplimiento Ley de Morosidad,0,10186
+3019990000,Incentivos a Recaudación Derechos de Matrícula,0,50000

@@ -1,6 +1,5 @@
 ORGÁNICA,CENTRO,"SUPERFICIE
 PONDERADA",IMPORTE
-
 3010010000,Facultad de Filosofía y Letras,47530,169206
 3010020000,Facultad de Derecho,31459,111995
 3010030000,Facultad de Ciencias,119845,426648
@@ -28,5 +27,4 @@ PONDERADA",IMPORTE
 3010810000,Facultad de Ciencias de la Salud de Melilla,484,15000
 3010900000,Facultad de Ciencias de la Salud de Ceuta,6524,23225
 3019990000,Contrato Programa a Centros,0,333352
-3019990000,Cumplimiento Ley de Morosidad,,45693
-TOTALES,,638031,2663710
+3019990000,Cumplimiento Ley de Morosidad,0,45693

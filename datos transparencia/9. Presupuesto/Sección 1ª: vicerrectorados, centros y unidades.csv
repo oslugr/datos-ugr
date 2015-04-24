@@ -1,79 +1,63 @@
-Orgánica,CENTRO,2014
-3020070000,Vicerrectorado de Extensión Universitaria y Deporte,20000
-3020070000,Actuaciones de Extensión Universitaria,405000
-3022870000,Patrimonio Mueble,20000
-3020010000,Centro de Actividades Deportivas,301500
-3021160000,Editorial Universidad de Granada,112500
-3021430000,Comisión Mixta Universidad-MADOC,35000
-3022520000,Orquesta de Cámara de la UGR,60000
-
-3020060000,Vicerrectorado de Política Científica e Investigación,20000
-3020170000,Biblioteca Universitaria,3600000
-3021300000,Biblioteca de Medicina y Ciencias de la Salud,10000
-3020020000,Centro de Instrumentación Científica,162000
-3020190000,Oficina de Transferencia de Resultados de Investigación,40000
-3022260000,Oficina de Proyectos Internacionales,25000
-3021270000,Centro de Documentación Científica,9200
-3020560000,Centro de Documentación Europea,9200
-3022540000,Edificio Centro de Investigación Biomédica,30000
-3023170000,Centro de Investigación CITIC,18000
--,Institutos Universitarios (14),159600,
--,Institutos Universitarios Contratos Programa ,23940,
-3021220000,Jardines Botánicos,16500
-3021040000,Herbario Universitario,12500
-
-3020200000,Vicerrectorado de Estudiantes,20000
-3020200000,Actuaciones Vicerrectorado de Estudiantes,380000
-3022610000,Coordinación Acceso,10000
-3021450000,Casa de Porras,17000
-
-3021810000,Vicerrectorado de Relaciones Internac. y Cooperación al Desarrollo,20000
-3021120000,Oficina de Relaciones Internacionales,104000
-3020450000,Centro de Iniciativas de Cooperación al Desarrollo,281000
-
-3021390000,Vicerrectorado de Enseñanzas de Grado y Posgrado ,20000
-3020240000,Másteres Universitarios,1080000
--,Escuelas de Doctorado,90000,
-3020500000,Escuela Internacional de Posgrado,85000
-3020870000,Aula Permanente de Formación Abierta,30000
-
-3020350000,Vicerrectorado de Ordenación Académica y Profesorado,20000
-
-3022500000,Vicerrectorado para la Garantía de la Calidad ,20000
-
-3020520000,Vicerrectorado de Infraestructuras y Campus,20000
-
-3021190000,Vicerrectorado de Parque Tecnológico de Ciencias de la Salud,20000
-3023360000,Desarrollo Campus CC Salud,10000
-
-3023470000,Delegación de Calidad Ambiental y Bienestar,20000
-3020770000,Calidad Ambiental,40000
-3023480000,Actuaciones de Cooperación al Desarrollo Local,10000
-3022900000,Gabinete de Calidad de Vida y Envejecimiento,12000
-
-3023490000,Delegación para el Campus Universitario de Melilla,20000
-3023200000,Coordinación Melilla,20000
-3023210000,Coordinación Ceuta ,15000
-
-3023500000,"Delegación para Transferencia, Innovación y Empresa",20000
-
-3023510000,Delegación para las TIC,20000
-3020040000,Centro de Servicios de Informática y Redes de Comunicación,364000
-3022730000,Edificio Cevug,12000
-
-3022860000,Secretaría General,20000
-3022860000,"Secretaria General. Documentación, difusión y comunicaciones",15000
-3023340000,Archivo Universitario,15000
-
-3020000000,Gerencia Servicios Centrales,1800000
-3020310000,Colegio Mayor Isabel La Católica,125000
-3020320000,Residencia Carmen de La Victoria,23000
-3020470000,Residencia Corrala de Santiago,23000
-3021310000,Edificio Fray Luis de Granada,6700
-3020530000,Gabinete de Acción Social,12000
-
-3022880000,Oficina de la Inspección de Servicios,5000
-3021150000,Oficina del Defensor Universitario,5000
-3022890000,Unidad de Igualdad,17000
--,Incentivos al Cumplimiento Ley de Morosidad,198733,
-TOTALES,,10135373
+Orgánica,"Vicerrectorado, delegación u organismo dependiente",CENTRO,2014
+3020070000,Vicerrectorado de Extensión Universitaria y Deporte,Vicerrectorado de Extensión Universitaria y Deporte,20000
+3020070000,Vicerrectorado de Extensión Universitaria y Deporte,Actuaciones de Extensión Universitaria,405000
+3022870000,Vicerrectorado de Extensión Universitaria y Deporte,Patrimonio Mueble,20000
+3020010000,Vicerrectorado de Extensión Universitaria y Deporte,Centro de Actividades Deportivas,301500
+3021160000,Vicerrectorado de Extensión Universitaria y Deporte,Editorial Universidad de Granada,112500
+3021430000,Vicerrectorado de Extensión Universitaria y Deporte,Comisión Mixta Universidad-MADOC,35000
+3022520000,Vicerrectorado de Extensión Universitaria y Deporte,Orquesta de Cámara de la UGR,60000
+3020060000,Vicerrectorado de Política Científica e Investigación,Vicerrectorado de Política Científica e Investigación,20000
+3020170000,Vicerrectorado de Política Científica e Investigación,Biblioteca Universitaria,3600000
+3021300000,Vicerrectorado de Política Científica e Investigación,Biblioteca de Medicina y Ciencias de la Salud,10000
+3020020000,Vicerrectorado de Política Científica e Investigación,Centro de Instrumentación Científica,162000
+3020190000,Vicerrectorado de Política Científica e Investigación,Oficina de Transferencia de Resultados de Investigación,40000
+3022260000,Vicerrectorado de Política Científica e Investigación,Oficina de Proyectos Internacionales,25000
+3021270000,Vicerrectorado de Política Científica e Investigación,Centro de Documentación Científica,9200
+3020560000,Vicerrectorado de Política Científica e Investigación,Centro de Documentación Europea,9200
+3022540000,Vicerrectorado de Política Científica e Investigación,Edificio Centro de Investigación Biomédica,30000
+3023170000,Vicerrectorado de Política Científica e Investigación,Centro de Investigación CITIC,18000
+No especificado,Vicerrectorado de Política Científica e Investigación,Institutos Universitarios (14),159600
+No especificado,Vicerrectorado de Política Científica e Investigación,Institutos Universitarios Contratos Programa ,23940
+3021220000,Vicerrectorado de Política Científica e Investigación,Jardines Botánicos,16500
+3021040000,Vicerrectorado de Política Científica e Investigación,Herbario Universitario,12500
+3020200000,Vicerrectorado de Estudiantes,Vicerrectorado de Estudiantes,20000
+3020200000,Vicerrectorado de Estudiantes,Actuaciones Vicerrectorado de Estudiantes,380000
+3022610000,Vicerrectorado de Estudiantes,Coordinación Acceso,10000
+3021450000,Vicerrectorado de Estudiantes,Casa de Porras,17000
+3021810000,Vicerrectorado de Relaciones Internac. y Cooperación al Desarrollo,Vicerrectorado de Relaciones Internac. y Cooperación al Desarrollo,20000
+3021120000,Vicerrectorado de Relaciones Internac. y Cooperación al Desarrollo,Oficina de Relaciones Internacionales,104000
+3020450000,Vicerrectorado de Relaciones Internac. y Cooperación al Desarrollo,Centro de Iniciativas de Cooperación al Desarrollo,281000
+3021390000,Vicerrectorado de Enseñanzas de Grado y Posgrado ,Vicerrectorado de Enseñanzas de Grado y Posgrado ,20000
+3020240000,Vicerrectorado de Enseñanzas de Grado y Posgrado ,Másteres Universitarios,1080000
+No especificado,Vicerrectorado de Enseñanzas de Grado y Posgrado ,Escuelas de Doctorado,90000
+3020500000,Vicerrectorado de Enseñanzas de Grado y Posgrado ,Escuela Internacional de Posgrado,85000
+3020870000,Vicerrectorado de Enseñanzas de Grado y Posgrado ,Aula Permanente de Formación Abierta,30000
+3020350000,Vicerrectorado de Ordenación Académica y Profesorado,Vicerrectorado de Ordenación Académica y Profesorado,20000
+3022500000,Vicerrectorado para la Garantía de la Calidad ,Vicerrectorado para la Garantía de la Calidad ,20000
+3020520000,Vicerrectorado de Infraestructuras y Campus,Vicerrectorado de Infraestructuras y Campus,20000
+3021190000,Vicerrectorado de Parque Tecnológico de Ciencias de la Salud,Vicerrectorado de Parque Tecnológico de Ciencias de la Salud,20000
+3023360000,Vicerrectorado de Parque Tecnológico de Ciencias de la Salud,Desarrollo Campus CC Salud,10000
+3023470000,Delegación de Calidad Ambiental y Bienestar,Delegación de Calidad Ambiental y Bienestar,20000
+3020770000,Delegación de Calidad Ambiental y Bienestar,Calidad Ambiental,40000
+3023480000,Delegación de Calidad Ambiental y Bienestar,Actuaciones de Cooperación al Desarrollo Local,10000
+3022900000,Delegación de Calidad Ambiental y Bienestar,Gabinete de Calidad de Vida y Envejecimiento,12000
+3023490000,Delegación para el Campus Universitario de Melilla,Delegación para el Campus Universitario de Melilla,20000
+3023200000,Delegación para el Campus Universitario de Melilla,Coordinación Melilla,20000
+3023210000,Delegación para el Campus Universitario de Melilla,Coordinación Ceuta ,15000
+3023500000,"Delegación para Transferencia, Innovación y Empresa","Delegación para Transferencia, Innovación y Empresa",20000
+3023510000,Delegación para las TIC,Delegación para las TIC,20000
+3020040000,Delegación para las TIC,Centro de Servicios de Informática y Redes de Comunicación,364000
+3022730000,Delegación para las TIC,Edificio Cevug,12000
+3022860000,Secretaría General,Secretaría General,20000
+3022860000,Secretaría General,"Secretaria General. Documentación, difusión y comunicaciones",15000
+3023340000,Secretaría General,Archivo Universitario,15000
+3020000000,Gerencia Servicios Centrales,Gerencia Servicios Centrales,1800000
+3020310000,Gerencia Servicios Centrales,Colegio Mayor Isabel La Católica,125000
+3020320000,Gerencia Servicios Centrales,Residencia Carmen de La Victoria,23000
+3020470000,Gerencia Servicios Centrales,Residencia Corrala de Santiago,23000
+3021310000,Gerencia Servicios Centrales,Edificio Fray Luis de Granada,6700
+3020530000,Gerencia Servicios Centrales,Gabinete de Acción Social,12000
+3022880000,Oficina de la Inspección de Servicios,Oficina de la Inspección de Servicios,5000
+3021150000,Oficina de la Inspección de Servicios,Oficina del Defensor Universitario,5000
+3022890000,Oficina de la Inspección de Servicios,Unidad de Igualdad,17000
+No especificado,Oficina de la Inspección de Servicios,Incentivos al Cumplimiento Ley de Morosidad,198733
