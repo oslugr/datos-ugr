@@ -1,26 +1,23 @@
-"Tipo","2009","2010","2011","2012","2013*"
-"1. Importe neto de la cifra de negocios                                                               ","4848904","5373123,80","5559772,88","4994052,95","4456753"
-"a) Ventas                                                                                       ","-195885","-166685,72","-176198,24","-180763,50","-168128"
-"b) Prestaciones de servicios                                                                    ","5036473","5539809,52","5735971,12","5174816,45","4624881"
-"                             LEX","1175243","1392823,80","1371517,00","1219391,00","876330"
-"                             CILE","924400","1008941,00","1045903,00","921645,58","963884"
-"                             CEH-CLCE","1449150","1506012,00","1749535,00","1748064,50","1579373"
-"                             CED","356941","414227,50","399489,09","311845,00","333703"
-"                             Metodología","391227","296169,50","270420,5","99440,00","53916"
-"                             Master USA","203251","188424,50","165695,00","184936,52","173440"
-"                             CELE","412151","583266,00","604745,00","545662,85","452004"
-"                             Otros","124110","149945,22","128666,53","143831,00","192231"
-"5. Otros ingresos de explotación                                                                      ","162618","211714,27","205253,06","176728,93","188160"
-"a) Ingresos accesorios y otros de gestión corriente                                             ","162618","211714,27","205253,06","176728,93","188160"
-"6. Gastos de personal                                                                                 ","-3464603","-3666955,17","-3692404,56","-3421294,61","-3399266"
-"7. Otros gastos de explotación                                                                        ","-1625411","-1801655,59","-1787592,46","-1520030,64","-1365895"
-"8. Amortización del inmovilizado                                                                      ","-231698","-210182,44","-199160,36","-180116,06","-163782"
-"10. Excesos de provisiones","0","95000,00","0,00","55000,00","0"
-"A.1) RESULTADO DE EXPLOTACIÓN ( 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 )","-356333","1044,87","85868,56","104340,57","-284030"
-"13. Gastos financieros                                                                                 ","-73373","-24737,25","-19460,82","-17890,05","-5235"
-"Deterioro de instrumentos financieros"," "," ","-25486,76","-7236,00",""
-"16. Ingresos financieros","66992","29103,29","36322,49","47622,31","50609"
-"A.2) RESULTADO FINANCIERO  ( 12 + 13 + 14 + 15 + 16 )                                                ","-6381","4366,04","-8625,09","22496,26","45374"
-"A.3) RESULTADO ANTES DE IMPUESTOS ( A.1 + A.2 )                                                          ","-362714","5410,91","77243,47","126836,83","-238656"
-"A.4) RESULTADO DEL EJERCICIO PROCEDENTE DE OPERACIONES CONTINUADAS  ( A.3 + 17 )","-362714","5410,91","77243,47","126836,83","-238656"
-"A.5) RESULTADO DEL EJERCICIO ( A.4 + 18 )                                                                    ","-362714","5410,91","77243,47","126836,83","-238656"
+Tipo,2009,2010,2011,2012,2013
+1. Importe neto de la cifra de negocios: ventas                                                                                       ,-195885,"-166685,72","-176198,24","-180763,5",-168128
+1. Importe neto de la cifra de negocios: prestaciones de servicios LEX,1175243,"1392823,8",1371517,1219391,876330
+1. Importe neto de la cifra de negocios: prestaciones de servicios CILE,924400,1008941,1045903,"921645,58",963884
+1. Importe neto de la cifra de negocios: prestaciones de servicios CEH-CLCE,1449150,1506012,1749535,"1748064,5",1579373
+1. Importe neto de la cifra de negocios: prestaciones de servicios CED,356941,"414227,5","399489,09",311845,333703
+1. Importe neto de la cifra de negocios: prestaciones de servicios Metodología,391227,"296169,5","270420,5",99440,53916
+1. Importe neto de la cifra de negocios: prestaciones de servicios Master USA,203251,"188424,5",165695,"184936,52",173440
+1. Importe neto de la cifra de negocios: prestaciones de servicios CELE,412151,583266,604745,"545662,85",452004
+1. Importe neto de la cifra de negocios: prestaciones de servicios Otros,124110,"149945,22","128666,53",143831,192231
+5. Otros ingresos de explotación ingresos accesorios y otros de gestión corriente                                                            ,162618,"211714,27","205253,06","176728,93",188160
+6. Gastos de personal                                                                                 ,-3464603,"-3666955,17","-3692404,56","-3421294,61",-3399266
+7. Otros gastos de explotación                                                                        ,-1625411,"-1801655,59","-1787592,46","-1520030,64",-1365895
+8. Amortización del inmovilizado                                                                      ,-231698,"-210182,44","-199160,36","-180116,06",-163782
+10. Excesos de provisiones,0,95000,0,55000,0
+A.1) RESULTADO DE EXPLOTACIÓN ( 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 ),-356333,"1044,87","85868,56","104340,57",-284030
+13. Gastos financieros                                                                                 ,-73373,"-24737,25","-19460,82","-17890,05",-5235
+Deterioro de instrumentos financieros,0,0,"-25486,76",-7236,0
+16. Ingresos financieros,66992,"29103,29","36322,49","47622,31",50609
+A.2) RESULTADO FINANCIERO  ( 12 + 13 + 14 + 15 + 16 )                                                ,-6381,"4366,04","-8625,09","22496,26",45374
+A.3) RESULTADO ANTES DE IMPUESTOS ( A.1 + A.2 )                                                          ,-362714,"5410,91","77243,47","126836,83",-238656
+A.4) RESULTADO DEL EJERCICIO PROCEDENTE DE OPERACIONES CONTINUADAS  ( A.3 + 17 ),-362714,"5410,91","77243,47","126836,83",-238656
+A.5) RESULTADO DEL EJERCICIO ( A.4 + 18 )                                                                    ,-362714,"5410,91","77243,47","126836,83",-238656
