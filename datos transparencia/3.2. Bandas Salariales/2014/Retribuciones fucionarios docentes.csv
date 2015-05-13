@@ -1,19 +1,17 @@
 CUERPO,DEDC.,SUELDO,C.DEST.,C.ESPEC.,TOTAL MES,TRIENIOS,P.EXTRAS> SUELDO ,P. EXTRAS> C.DEST.,P. EXTRAS>TRIENIOS,P.ADIC.C.ESP.
-DTOR. GRAL.,,,"1151,23",,,"Grupo A1: 42,65",,,"Grupo A1: 26,31",(C.GENERAL)
+DTOR. GRAL.,No especificado,No especificado,"1151,23",No especificado,No especificado,"Grupo A1: 42,65",No especificado,No especificado,"Grupo A1: 26,31",(C.GENERAL)
 CATEDR.UNIV.,T.C.,"1109,05","868,93","979,71","2957,69","Grupo A2: 34,77","684,36","868,93","Grupo A2: 25,35","979,71"
-NIVEL 29,6H,,,,,"Grupo C1: 26,31",,,"Grupo C1: 22,73",
--,5H,,,,,"Grupo C2: 17,90",,,"Grupo C2: 17,73",
--,4H,,,,,"Grupo E:   13,47",,,"Grupo E:   13,47",
--,3H,,,,,,,,,
-,,,,,,,,,,
-TIT. UNIV.,T.C.,"1109,05","795,85","457,06","2361,96",,"684,36","795,85",,"457,06"
-CATED. EE.UU.,6H,,,,,,,,,
-NIVEL 27,5H,,,,,,,,,
--,4H,,,,,,,,,
--,3H,,,,,,,,,
-,,,,,,,,,,
-TITULAR EE.UU.,T.C.,"1109,05","698,20","282,19","2089,44",,"684,36","698,20",,"282,19"
-NIVEL 26,6H,,,,,,,,,
--,5H,,,,,,,,,
--,4H,,,,,,,,,
--,3H,,,,,,,,,
+NIVEL 29,6H,No especificado,No especificado,No especificado,No especificado,"Grupo C1: 26,31",No especificado,No especificado,"Grupo C1: 22,73",No especificado
+NIVEL 29,5H,No especificado,No especificado,No especificado,No especificado,"Grupo C2: 17,90",No especificado,No especificado,"Grupo C2: 17,73",No especificado
+NIVEL 29,4H,No especificado,No especificado,No especificado,No especificado,"Grupo E:   13,47",No especificado,No especificado,"Grupo E:   13,47",No especificado
+NIVEL 29,3H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+TIT. UNIV.,T.C.,"1109,05","795,85","457,06","2361,96",No especificado,"684,36","795,85",No especificado,"457,06"
+CATED. EE.UU.,6H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+NIVEL 27,5H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+NIVEL 27,4H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+NIVEL 27,3H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+TITULAR EE.UU.,T.C.,"1109,05","698,2","282,19","2089,44",No especificado,"684,36","698,2",No especificado,"282,19"
+NIVEL 26,6H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+NIVEL 26,5H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+NIVEL 26,4H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado
+NIVEL 26,3H,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado,No especificado

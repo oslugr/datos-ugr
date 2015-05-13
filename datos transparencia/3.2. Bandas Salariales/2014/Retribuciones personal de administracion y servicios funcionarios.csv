@@ -1,40 +1,33 @@
-"GRUPO","SUELDO MENSUAL","TRIENIO MENSUAL","","P.EXTRA JUN/DIC-13",""
-"-","","","","SUELDO","TRIENIOS"
-"A (A1)","1109,05","42,65","","684,36","26,31"
-"B (A2)","958,98","34,77","","699,38","25,35"
-"(B)","838,27","30,52","","724,50","26,38"
-"C (C1)","720,02","26,31","","622,30","22,73"
-"D (C2)","599,25","17,90","","593,79","17,73"
-"E","548,47","13,47","","548,47","13,47"
-"","","","","",""
-"NIVEL","C.D. MENSUAL","C.D. ANUAL","","",""
-"","","","","",""
-"30","968,75","11625,00","","",""
-"29","868,93","10427,16","","",""
-"28","832,40","9988,80","","",""
-"27","795,85","9550,20","","",""
-"26","698,20","8378,40","","",""
-"25","619,47","7433,64","","",""
-"24","582,92","6995,04","","",""
-"23","546,41","6556,92","","",""
-"22","509,84","6118,08","","",""
-"21","473,35","5680,20","","",""
-"20","439,70","5276,40","","",""
-"19","417,25","5007,00","","",""
-"18","394,79","4737,48","","",""
-"17","372,33","4467,96","","",""
-"16","349,93","4199,16","","",""
-"15","327,44","3929,28","","",""
-"","","","","",""
-"TIPO","C.E. MENSUAL","C.E. ANUAL","P ADICIONAL","",""
-"","","","","",""
-"Gerente","3688,28","44259,36","3688,28","",""
-"L.D.(29)","1718,84","20626,08","1718,84","",""
-"2A","1094,52","13134,24","1094,52","",""
-"3A","875,63","10507,56","875,63","",""
-"4A","665,85","7990,20","665,85","",""
-"5A","552,74","6632,88","552,74","",""
-"6A","456,05","5472,60","456,05","",""
-"7A","437,81","5253,72","437,81","",""
-"8A","346,64","4196,02","346,64","",""
-"PB Gestion","608,10","7297,20","608,10","",""
+TIPO,SUELDO MENSUAL,TRIENIO MENSUAL,P.EXTRA JUN/DIC-13: SUELDO,P.EXTRA JUN/DIC-13: TRIENIOS,C.D. MENSUAL,C.D. ANUAL,C.E. MENSUAL,C.E. ANUAL,P ADICIONAL
+GRUPO A (A1),"1109,05","42,65","684,36","26,31",No contempla,No contempla,No contempla,No contempla,No contempla
+GRUPO B (A2),"958,98","34,77","699,38","25,35",No contempla,No contempla,No contempla,No contempla,No contempla
+GRUPO (B),"838,27","30,52","724,5","26,38",No contempla,No contempla,No contempla,No contempla,No contempla
+GRUPO C (C1),"720,02","26,31","622,3","22,73",No contempla,No contempla,No contempla,No contempla,No contempla
+GRUPO D (C2),"599,25","17,9","593,79","17,73",No contempla,No contempla,No contempla,No contempla,No contempla
+GRUPO E,"548,47","13,47","548,47","13,47",No contempla,No contempla,No contempla,No contempla,No contempla
+NIVEL 30,No contempla,No contempla,No contempla,No contempla,"968,75",11625,No contempla,No contempla,No contempla
+NIVEL 29,No contempla,No contempla,No contempla,No contempla,"868,93","10427,16",No contempla,No contempla,No contempla
+NIVEL 28,No contempla,No contempla,No contempla,No contempla,"832,4","9988,8",No contempla,No contempla,No contempla
+NIVEL 27,No contempla,No contempla,No contempla,No contempla,"795,85","9550,2",No contempla,No contempla,No contempla
+NIVEL 26,No contempla,No contempla,No contempla,No contempla,"698,2","8378,4",No contempla,No contempla,No contempla
+NIVEL 25,No contempla,No contempla,No contempla,No contempla,"619,47","7433,64",No contempla,No contempla,No contempla
+NIVEL 24,No contempla,No contempla,No contempla,No contempla,"582,92","6995,04",No contempla,No contempla,No contempla
+NIVEL 23,No contempla,No contempla,No contempla,No contempla,"546,41","6556,92",No contempla,No contempla,No contempla
+NIVEL 22,No contempla,No contempla,No contempla,No contempla,"509,84","6118,08",No contempla,No contempla,No contempla
+NIVEL 21,No contempla,No contempla,No contempla,No contempla,"473,35","5680,2",No contempla,No contempla,No contempla
+NIVEL 20,No contempla,No contempla,No contempla,No contempla,"439,7","5276,4",No contempla,No contempla,No contempla
+NIVEL 19,No contempla,No contempla,No contempla,No contempla,"417,25",5007,No contempla,No contempla,No contempla
+NIVEL 18,No contempla,No contempla,No contempla,No contempla,"394,79","4737,48",No contempla,No contempla,No contempla
+NIVEL 17,No contempla,No contempla,No contempla,No contempla,"372,33","4467,96",No contempla,No contempla,No contempla
+NIVEL 16,No contempla,No contempla,No contempla,No contempla,"349,93","4199,16",No contempla,No contempla,No contempla
+NIVEL 15,No contempla,No contempla,No contempla,No contempla,"327,44","3929,28",No contempla,No contempla,No contempla
+Gerente,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"3688,28","44259,36","3688,28"
+L.D.(29),No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"1718,84","20626,08","1718,84"
+2A,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"1094,52","13134,24","1094,52"
+3A,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"875,63","10507,56","875,63"
+4A,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"665,85","7990,2","665,85"
+5A,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"552,74","6632,88","552,74"
+6A,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"456,05","5472,6","456,05"
+7A,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"437,81","5253,72","437,81"
+8A,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"346,64","4196,02","346,64"
+PB Gestion,No contempla,No contempla,No contempla,No contempla,No contempla,No contempla,"608,1","7297,2","608,1"
