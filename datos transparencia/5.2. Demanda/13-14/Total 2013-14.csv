@@ -1,17 +1,17 @@
-Tipo de procedimiento,Estado,Total,Hombres,Mujeres
-Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,Presentados Fase General,5003,2145,2858
-Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,Aptos Fase General,4506,1943,2563
-Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,No Aptos Fase General,497,202,295
-Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,Matriculados Fase Especifica,5740,2459,3281
-Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,Presentados Fase General,1145,554,724
-Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,Aptos Fase General,886,448,551
-Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,No Aptos Fase General,259,106,173
-Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior,Presentados  Fase Específica,1349,601,849
-Prueba de Acceso a la Universidad para mayores de 25 años,No presentados,17,12,5
-Prueba de Acceso a la Universidad para mayores de 25 años,Aptos,181,109,72
-Prueba de Acceso a la Universidad para mayores de 25 años,No aptos,143,79,64
-Procedimiento de Acceso a la Universidad para mayores de 40 años con experiencia laboral o profesional,Aptos,34,19,15
-Procedimiento de Acceso a la Universidad para mayores de 40 años con experiencia laboral o profesional,No Aptos,15,8,7
-Prueba de Acceso a la Universidad para mayores de 45 años,No Presentados,6,3,3
-Prueba de Acceso a la Universidad para mayores de 45 años,Aptos,27,7,20
-Prueba de Acceso a la Universidad para mayores de 45 años,No Aptos,24,11,13
+"Tipo de procedimiento","Estado","Total","Hombres","Mujeres"
+"Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","Presentados Fase General",5003,2145,2858
+"Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","Aptos Fase General",4506,1943,2563
+"Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","No Aptos Fase General",497,202,295
+"Convocatoria ordinaria de junio: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","Matriculados Fase Especifica",5740,2459,3281
+"Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","Presentados Fase General",1145,554,724
+"Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","Aptos Fase General",886,448,551
+"Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","No Aptos Fase General",259,106,173
+"Convocatoria extraordinaria de septiembre: prueba de Acceso a la Universidad para estudiantes provenientes de Bachillerato y de Ciclos formativos de grado superior","Presentados  Fase Específica",1349,601,849
+"Prueba de Acceso a la Universidad para mayores de 25 años","No presentados",17,12,5
+"Prueba de Acceso a la Universidad para mayores de 25 años","Aptos",181,109,72
+"Prueba de Acceso a la Universidad para mayores de 25 años","No aptos",143,79,64
+"Procedimiento de Acceso a la Universidad para mayores de 40 años con experiencia laboral o profesional","Aptos",34,19,15
+"Procedimiento de Acceso a la Universidad para mayores de 40 años con experiencia laboral o profesional","No Aptos",15,8,7
+"Prueba de Acceso a la Universidad para mayores de 45 años","No Presentados",6,3,3
+"Prueba de Acceso a la Universidad para mayores de 45 años","Aptos",27,7,20
+"Prueba de Acceso a la Universidad para mayores de 45 años","No Aptos",24,11,13
