@@ -1,0 +1,134 @@
+index,fecha,de,cod_capitulo,capitulo,cod_concepto,concepto,cod_programa,programa,cantidad
+1,2013,Universidad de Granada,1, Gastos De Personal,110,Personal eventual,422D,Enseñanzas Universitarias,360000
+2,2013,Universidad de Granada,1, Gastos De Personal,120,Funcionarios. Retribuciones básicas,422D,Enseñanzas Universitarias,55624330
+3,2013,Universidad de Granada,1, Gastos De Personal,120,Funcionarios. Retribuciones básicas,321B,Estructura y Gestión Universitaria,19732
+4,2013,Universidad de Granada,1, Gastos De Personal,121,Funcionarios. Retribuciones complementarias,422D,Enseñanzas Universitarias,84273857
+5,2013,Universidad de Granada,1, Gastos De Personal,121,Funcionarios. Retribuciones complementarias,321B,Estructura y Gestión Universitaria,28328
+6,2013,Universidad de Granada,1, Gastos De Personal,130,Personal laboral. Retribuciones básicas,422D,Enseñanzas Universitarias,15265774
+7,2013,Universidad de Granada,1, Gastos De Personal,131,Personal laboral. Otras remuneraciones,422D,Enseñanzas Universitarias,44065247
+8,2013,Universidad de Granada,1, Gastos De Personal,134.0,Personal laboral de sustituciones,422D,Enseñanzas Universitarias,4140000
+9,2013,Universidad de Granada,1, Gastos De Personal,143,Personal colaboración social,422D,Enseñanzas Universitarias,300000
+10,2013,Universidad de Granada,1, Gastos De Personal,145,Retribuciones Asociados (LRU),422D,Enseñanzas Universitarias,25444
+11,2013,Universidad de Granada,1, Gastos De Personal,146,Retribuciones Asociados Ciencias de la Salud (LRU),422D,Enseñanzas Universitarias,697687
+12,2013,Universidad de Granada,1, Gastos De Personal,150,Productividad,422D,Enseñanzas Universitarias,13148402
+13,2013,Universidad de Granada,1, Gastos De Personal,150,Productividad,321B,Estructura y Gestión Universitaria,6599
+14,2013,Universidad de Granada,1, Gastos De Personal,151,Gratificaciones,422D,Enseñanzas Universitarias,3000
+15,2013,Universidad de Granada,1, Gastos De Personal,160,Cuotas sociales,422D,Enseñanzas Universitarias,29115825
+16,2013,Universidad de Granada,1, Gastos De Personal,162.0,Prestaciones. Indemnización por jubilación,422D,Enseñanzas Universitarias,3000000
+17,2013,Universidad de Granada,1, Gastos De Personal,"162,01",Formación y Perfeccionamiento del PAS,422D,Enseñanzas Universitarias,200000
+18,2013,Universidad de Granada,1, Gastos De Personal,162.05,Plan de acción social,422D,Enseñanzas Universitarias,869331
+19,2013,Universidad de Granada,1, Gastos De Personal,162.05,Plan de Acción Social. Beneficios en precios publicos,422D,Enseñanzas Universitarias,840000
+20,2013,Universidad de Granada,1, Gastos De Personal,162.07,Prestaciones. Complemento a la prestación por I.T.,422D,Enseñanzas Universitarias,800000
+21,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,202,Arrendamiento de edificios y otros,422D,Enseñanzas Universitarias,20000
+22,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,202,Arrendamiento de edificios y otros,541A,Investigación Científica,2000
+23,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,202,Arrendamiento de edificios y otros,321B,Estructura y Gestión Universitaria,250000
+24,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,203,"Arrendamiento de maquinaria, instalac.y utillaje",422D,Enseñanzas Universitarias,20000
+25,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,203,"Arrendamiento de maquinaria, instalac.y utillaje",541A,Investigación Científica,2000
+26,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,203,"Arrendamiento de maquinaria, instalac.y utillaje",321B,Estructura y Gestión Universitaria,50000
+27,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,204,Arrendamiento de material de transporte,422D,Enseñanzas Universitarias,2000
+28,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,204,Arrendamiento de material de transporte,541A,Investigación Científica,2000
+29,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,204,Arrendamiento de material de transporte,321B,Estructura y Gestión Universitaria,5000
+30,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,205,Arrendamiento de mobiliario y enseres,422D,Enseñanzas Universitarias,20000
+31,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,205,Arrendamiento de mobiliario y enseres,541A,Investigación Científica,2000
+32,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,205,Arrendamiento de mobiliario y enseres,321B,Estructura y Gestión Universitaria,60000
+33,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,206,Arrendamiento de equipos informáticos,422D,Enseñanzas Universitarias,2000
+34,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,206,Arrendamiento de equipos informáticos,541A,Investigación Científica,2000
+35,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,206,Arrendamiento de equipos informáticos,321B,Estructura y Gestión Universitaria,2000
+36,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,208,Arrendamiento de otro inmovilizado material,422D,Enseñanzas Universitarias,2000
+37,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,208,Arrendamiento de otro inmovilizado material,541A,Investigación Científica,2000
+38,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,208,Arrendamiento de otro inmovilizado material,321B,Estructura y Gestión Universitaria,2000
+39,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,212,"Reparación, Mantenimiento y conservación de edificios y otros",422D,Enseñanzas Universitarias,400000
+40,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,212,"Reparación, Mantenimiento y conservación de edificios y otros",541A,Investigación Científica,100000
+41,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,212,"Reparación, Mantenimiento y conservación de edificios y otros",321B,Estructura y Gestión Universitaria,1326464
+42,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,213,"Reparación, Mantenimiento y conserv.maquinaria, instalaciones y utillaje",422D,Enseñanzas Universitarias,400000
+43,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,213,"Reparación, Mantenimiento y conserv.maquinaria, instalaciones y utillaje",541A,Investigación Científica,75000
+44,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,213,"Reparación, Mantenimiento y conserv.maquinaria, instalaciones y utillaje",321B,Estructura y Gestión Universitaria,775000
+45,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,214,"Reparación, Mantenimiento y  conserv.material de transporte",422D,Enseñanzas Universitarias,2000
+46,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,214,"Reparación, Mantenimiento y  conserv.material de transporte",541A,Investigación Científica,2000
+47,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,214,"Reparación, Mantenimiento y  conserv.material de transporte",321B,Estructura y Gestión Universitaria,20000
+48,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,215,"Reparación, Mantenimiento y conserv. mobiliario y enseres",422D,Enseñanzas Universitarias,150000
+49,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,215,"Reparación, Mantenimiento y conserv. mobiliario y enseres",541A,Investigación Científica,15000
+50,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,215,"Reparación, Mantenimiento y conserv. mobiliario y enseres",321B,Estructura y Gestión Universitaria,200000
+51,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,216,"Reparación, Mantenimiento y conserv. Equipos de información",422D,Enseñanzas Universitarias,150000
+52,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,216,"Reparación, Mantenimiento y conserv. Equipos de información",541A,Investigación Científica,75000
+53,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,216,"Reparación, Mantenimiento y conserv. Equipos de información",321B,Estructura y Gestión Universitaria,600000
+54,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,217,Mantenimiento general y optimización energética,321B,Estructura y Gestión Universitaria,1200000
+55,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,220,Material de oficina,422D,Enseñanzas Universitarias,1600000
+56,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,220,Material de oficina,541A,Investigación Científica,110000
+57,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,220,Material de oficina,321B,Estructura y Gestión Universitaria,2220185
+58,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,221,Suministros,422D,Enseñanzas Universitarias,2550000
+59,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,221,Suministros,541A,Investigación Científica,125000
+60,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,221,Suministros,321B,Estructura y Gestión Universitaria,6000000
+61,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,222,Comunicaciones,422D,Enseñanzas Universitarias,100000
+62,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,222,Comunicaciones,541A,Investigación Científica,15000
+63,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,222,Comunicaciones,321B,Estructura y Gestión Universitaria,1100000
+64,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,223,Transportes,422D,Enseñanzas Universitarias,250000
+65,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,223,Transportes,541A,Investigación Científica,2000
+66,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,223,Transportes,321B,Estructura y Gestión Universitaria,300000
+67,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,224,Primas de seguros,422D,Enseñanzas Universitarias,60000
+68,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,224,Primas de seguros,541A,Investigación Científica,5000
+69,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,224,Primas de seguros,321B,Estructura y Gestión Universitaria,200000
+70,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,225,Tributos,422D,Enseñanzas Universitarias,200000
+71,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,225,Tributos,541A,Investigación Científica,5000
+72,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,225,Tributos,321B,Estructura y Gestión Universitaria,100000
+73,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,226,"Gastos diversos(excepto subconcepto 226,01)",422D,Enseñanzas Universitarias,2926596
+74,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,226,"Gastos diversos(excepto subconcepto 226,01)",541A,Investigación Científica,74940
+75,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,226,"Gastos diversos(excepto subconcepto 226,01)",321B,Estructura y Gestión Universitaria,4269850
+76,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,226.01,Atenciones protocolarias y de representación,422D,Enseñanzas Universitarias,300000
+77,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,226.01,Atenciones protocolarias y de representación,541A,Investigación Científica,10000
+78,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,226.01,Atenciones protocolarias y de representación,321B,Estructura y Gestión Universitaria,250000
+79,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,227,Trabajos realizados por otras empresas,422D,Enseñanzas Universitarias,900000
+80,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,227,Trabajos realizados por otras empresas,541A,Investigación Científica,80000
+81,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,227,Trabajos realizados por otras empresas,321B,Estructura y Gestión Universitaria,5300000
+82,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,230,Dietas,422D,Enseñanzas Universitarias,900000
+83,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,230,Dietas,541A,Investigación Científica,50000
+84,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,230,Dietas,321B,Estructura y Gestión Universitaria,608750
+85,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,231, Locomoción,422D,Enseñanzas Universitarias,800000
+86,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,231, Locomoción,541A,Investigación Científica,50000
+87,2013,Universidad de Granada,2, Gastos En Bienes Corrientes Y Servicios,231, Locomoción,321B,Estructura y Gestión Universitaria,600000
+88,2013,Universidad de Granada,3, Gastos Financieros,310,Intereses operaciones a corto plazo,321B,Estructura y Gestión Universitaria,175000
+89,2013,Universidad de Granada,3, Gastos Financieros,311,"Gastos de emisión, modificación y cancelación",321B,Estructura y Gestión Universitaria,25000
+90,2013,Universidad de Granada,4, Transferencias Corrientes,"480,00", Becas  y ayudas propias a estudiantes,422D,Enseñanzas Universitarias,1207500
+91,2013,Universidad de Granada,4, Transferencias Corrientes,480.03,A Asociaciones estudiantiles,422D,Enseñanzas Universitarias,150000
+92,2013,Universidad de Granada,4, Transferencias Corrientes,"480,04",Plan Propio de Prácticas en Empresas y Entidades sin fines lucro,422D,Enseñanzas Universitarias,1075000
+93,2013,Universidad de Granada,4, Transferencias Corrientes,"480,08",Plan Propio de Ayudas Sociales a Estudiantes,422D,Enseñanzas Universitarias,180000
+94,2013,Universidad de Granada,4, Transferencias Corrientes,483,Becas Programas Europeos,422D,Enseñanzas Universitarias,10250000
+95,2013,Universidad de Granada,4, Transferencias Corrientes,484,Convenio con otras instituciones,321B,Estructura y Gestión Universitaria,35000
+96,2013,Universidad de Granada,4, Transferencias Corrientes,485,"A Fundaciones y otras instituciones(Excepto 485,03)",321B,Estructura y Gestión Universitaria,500000
+97,2013,Universidad de Granada,4, Transferencias Corrientes,485,A Fundaciones y otras instituciones  Consejo Social,321B,Estructura y Gestión Universitaria,8259
+98,2013,Universidad de Granada,4, Transferencias Corrientes,485.03,Al Centro Mediterráneo,321B,Estructura y Gestión Universitaria,38495
+99,2013,Universidad de Granada,4, Transferencias Corrientes,485.05,Otros Planes de Apoyo Junta de Andalucía,422D,Enseñanzas Universitarias,1915000
+100,2013,Universidad de Granada,4, Transferencias Corrientes,490.11,Cuotas y contrib.organismos internacionales,422D,Enseñanzas Universitarias,30000
+101,2013,Universidad de Granada,6, Inversiones Reales,602.0,Construcciones propias,321B,Estructura y Gestión Universitaria,3517282
+102,2013,Universidad de Granada,6, Inversiones Reales,603.0,"Maquinaria Centros, Departamentos y Servicios",321B,Estructura y Gestión Universitaria,500000
+103,2013,Universidad de Granada,6, Inversiones Reales,603.03,Maquinaria (Equipamiento Gral.Docente),321B,Estructura y Gestión Universitaria,400000
+104,2013,Universidad de Granada,6, Inversiones Reales,603.04,Maquinaria (Equipamiento de gestión),321B,Estructura y Gestión Universitaria,100000
+105,2013,Universidad de Granada,6, Inversiones Reales,603.05,Maquinaria (Equipamiento en prevención de riesgos),321B,Estructura y Gestión Universitaria,120000
+106,2013,Universidad de Granada,6, Inversiones Reales,605.0,"Mobiliario y enseres Centros, Depart. y Servicios",321B,Estructura y Gestión Universitaria,1476840
+107,2013,Universidad de Granada,6, Inversiones Reales,605.03,Mobiliario y enseres (Equip.Gral.docente),321B,Estructura y Gestión Universitaria,400000
+108,2013,Universidad de Granada,6, Inversiones Reales,605.04,Mobiliario y enseres (Equipamiento de gestión),321B,Estructura y Gestión Universitaria,75000
+109,2013,Universidad de Granada,6, Inversiones Reales,605.05,Mobiliario y enseres (Equip. en prevención de riesgos),321B,Estructura y Gestión Universitaria,200000
+110,2013,Universidad de Granada,6, Inversiones Reales,"606,00","Sistemas procesos información. Centros, Departamentos y Servic.",321B,Estructura y Gestión Universitaria,1000000
+111,2013,Universidad de Granada,6, Inversiones Reales,"606,01",Sistemas procesos información. CSIRC,321B,Estructura y Gestión Universitaria,240000
+112,2013,Universidad de Granada,6, Inversiones Reales,"606,02",Sistemas procesos información.Enseñanzas Virtuales,321B,Estructura y Gestión Universitaria,300000
+113,2013,Universidad de Granada,6, Inversiones Reales,"606,05",Sistemas procesos  informaciòn de Gestión,321B,Estructura y Gestión Universitaria,150000
+114,2013,Universidad de Granada,6, Inversiones Reales,608,Inversiones bibliográficas,422D,Enseñanzas Universitarias,400000
+115,2013,Universidad de Granada,6, Inversiones Reales,608,Inversiones bibliográficas,541A,Investigación Científica,3600000
+116,2013,Universidad de Granada,6, Inversiones Reales,608,Inversiones bibliográficas,321B,Estructura y Gestión Universitaria,25000
+117,2013,Universidad de Granada,6, Inversiones Reales,621,Plan Plurianual Inversiones 2006/2010 (año 2011),321B,Estructura y Gestión Universitaria,20000000
+118,2013,Universidad de Granada,6, Inversiones Reales,631,Programa FEDER 2007/13,541A,Investigación Científica,7000000
+119,2013,Universidad de Granada,6, Inversiones Reales,"635,03", Actuaciones INNPLANTA 2012,321B,Estructura y Gestión Universitaria,250000
+120,2013,Universidad de Granada,6, Inversiones Reales,640,Investigación Científica,541A,Investigación Científica,32201673
+121,2013,Universidad de Granada,6, Inversiones Reales,"641,00",Plan Propio de Investigación Científica,541A,Investigación Científica,3360000
+122,2013,Universidad de Granada,6, Inversiones Reales,"641,02",Plan Propio de Fomento de la Productividad Investigadora,541A,Investigación Científica,1000000
+123,2013,Universidad de Granada,6, Inversiones Reales,642,Programas de Proyección Internacional y Promoción Lingüística,422D,Enseñanzas Universitarias,70000
+124,2013,Universidad de Granada,6, Inversiones Reales,644,"Plan de Innovación, Calidad Docente y EEES.",422D,Enseñanzas Universitarias,900000
+125,2013,Universidad de Granada,6, Inversiones Reales,645,Actuaciones Fomento de Empleo,422D,Enseñanzas Universitarias,400000
+126,2013,Universidad de Granada,6, Inversiones Reales,648,Plan Propio de Internacionalización,422D,Enseñanzas Universitarias,715000
+127,2013,Universidad de Granada,6, Inversiones Reales,662,Inversiones propias de reposición,321B,Estructura y Gestión Universitaria,8000000
+128,2013,Universidad de Granada,7, Transferencias De Capital,"780,05", Plan Propio para Promoción del Autoempleo,422D,Enseñanzas Universitarias,250000
+129,2013,Universidad de Granada,7, Transferencias De Capital,784,Ayudas diversas Consejo Social,321B,Estructura y Gestión Universitaria,12000
+130,2013,Universidad de Granada,7, Transferencias De Capital,"785,09",A otras Instituciones. Parque de las Ciencias,321B,Estructura y Gestión Universitaria,125000
+131,2013,Universidad de Granada,8, Activos Financieros,831.0,Anticipos y préstamos a Personal Universidad G.A.S.,422D,Enseñanzas Universitarias,650000
+132,2013,Universidad de Granada,8, Activos Financieros,"831,01",Linea especial de anticipos,422D,Enseñanzas Universitarias,500000
+133,2013,Universidad de Granada,9, Pasivos Financieros,911,Amortización de préstamos a largo plazo. Sector Público,321B,Estructura y Gestión Universitaria,1127217

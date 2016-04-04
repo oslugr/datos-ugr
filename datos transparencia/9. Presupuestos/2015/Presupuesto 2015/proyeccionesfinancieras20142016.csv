@@ -1,0 +1,23 @@
+Magnitudes presupuestarias,2014,2015,2016
+"Gastos de personal (a)
+",247309421,257404893,258009252
+"Gastos en bienes corrientes y servicios (b)
+",38491000,40000000,42000000
+"Inversiones de capital (c)
+",54500000,25000000,25000000
+"Subvenciones de capital Plan Plurianual de Inversiones (d)
+",44000000,15000000,15000000
+"Total gastos corrientes (e) = (a) + (b)
+",285800421,297404893,300009252
+"Financiación a recibir del modelo autonómico para gastos corrientes (f)
+",252000000,264000000,264000000
+"Ingresos por prestaciones de servicios (g)
+",55940000,56000000,56000000
+"Ahorro corriente para posibles inversiones (h) = (f) + (g) - (e)
+",22139579,22595107,19990748
+"Inversiones a financiar con recursos propios
+(i) = (c) - (d)
+",10500000,10000000,10000000
+"Resultado presupuestario previsto
+(h) - (i)
+",11639579,12595107,9990748

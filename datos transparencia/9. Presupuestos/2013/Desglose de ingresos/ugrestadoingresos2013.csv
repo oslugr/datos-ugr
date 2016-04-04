@@ -1,0 +1,99 @@
+index,fecha,cod_capitulo,capitulo,cod_articulo,articulo,cod_concepto,concepto,cod_subconcepto,subconcepto,cantidad
+1,2013,3,"Tasas, precios públicos y otros ingresos",30,Tasas,303,Tasas Académicas,30300,Por servicios administrativos,1900000
+2,2013,3,"Tasas, precios públicos y otros ingresos",31,Precios públicos,312,Servicios académicos enseñanzas regladas,31200,Enseñanzas de Grado,29000000
+3,2013,3,"Tasas, precios públicos y otros ingresos",31,Precios públicos,312,Servicios académicos enseñanzas regladas,31201,Enseñanzas de Posgrado oficial,2900000
+4,2013,3,"Tasas, precios públicos y otros ingresos",31,Precios públicos,312,Servicios académicos enseñanzas regladas,31202,Compensación becarios,10500000
+5,2013,3,"Tasas, precios públicos y otros ingresos",31,Precios públicos,312,Servicios académicos enseñanzas regladas,31203,Compensación familias numerosas,1500000
+6,2013,3,"Tasas, precios públicos y otros ingresos",31,Precios públicos,312,Servicios académicos enseñanzas regladas,31204,Compens.matrícula personal propio,840000
+7,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,320,Derechos matrícula cursos y seminarios,32000,Estudios de Extensión Universitaria,75000
+8,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,320,Derechos matrícula cursos y seminarios,32002,Centro de Actividades Deportivas,300000
+9,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,320,Derechos matrícula cursos y seminarios,32003,Cursos propios de Postgrado,1500000
+10,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,320,Derechos matrícula cursos y seminarios,32008,"Inscripciones jornadas,congresos",300000
+11,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,320,Derechos matrícula cursos y seminarios,32010,Centro Mediterráneo,150000
+12,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,320,Derechos matrícula cursos y seminarios,32011,Aula Permanente Formación Abierta,50000
+13,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,320,Derechos matrícula cursos y seminarios,32099,Otros Cursos y Seminarios,250000
+14,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,323,Contratos artículo 83 LOU,32300,Contratos OTRI,2500000
+15,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,323,Contratos artículo 83 LOU,32302,Contratos Fundación Univ.Empresa,375000
+16,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,324,Unidades de apoyo a la investigación,32400,Centro Instrumentación Científica,250000
+17,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,325,"Alojamiento, restauración y residencias",32500,Colegio Mayor Isabel la Católica,700000
+18,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,325,"Alojamiento, restauración y residencias",32501,Comedores universitarios,2100000
+19,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,325,"Alojamiento, restauración y residencias",32503,Residencia Corrala de Santiago,100000
+20,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,325,"Alojamiento, restauración y residencias",32504,Residencia Carmen de la Victoria,100000
+21,2013,3,"Tasas, precios públicos y otros ingresos",32,Ingresos por prestación de servicios,329,Otros ingresos por prestación de servicios,32999,Otros por prestación de servicios,100000
+22,2013,3,"Tasas, precios públicos y otros ingresos",33,Venta de bienes,330,Publicaciones propias,33000,Libros y revistas Editorial Universit.,250000
+23,2013,3,"Tasas, precios públicos y otros ingresos",39,Otros Ingresos,399,Ingresos diversos,39900,Reintegro anuncios adjudicatarios,25000
+24,2013,3,"Tasas, precios públicos y otros ingresos",39,Otros Ingresos,399,Ingresos diversos,39999,Otros Ingresos,50000
+25,2013,4,Transferencias corrientes,40,De la Administración General del Estado,400,Del Ministerio de Educación,40000,Financiación coste Ceuta y Melilla,8500000
+26,2013,4,Transferencias corrientes,40,De la Administración General del Estado,400,Del Ministerio de Educación,40003,Programas Europeos de movilidad,2000000
+27,2013,4,Transferencias corrientes,40,De la Administración General del Estado,401,De otros Ministerios,40100,Financiación operaciones corrientes,100000
+28,2013,4,Transferencias corrientes,41,De Organismos Autónomos Administrativos,410,De Organismos autónomos estatales,41009,Del IMSERSO,20000
+29,2013,4,Transferencias corrientes,41,De Organismos Autónomos Administrativos,411,De Organismos autónomos Junta Andalucía,41113,Instituto Andaluz de la Juventud,50000
+30,2013,4,Transferencias corrientes,42,De la Seguridad Social,421,Del Servicio Andaluz de Salud,42100,Plazas vinculadas. C.Específico,3000000
+31,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,450,Consej.Innovación Ciencia y Empresa. J.And,45000,Financiación operativa estructural,204719518
+32,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,450,Consej.Innovación Ciencia y Empresa. J.And,45001,Financ. Operativa vincul. resultados,46866897
+33,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,450,Consej.Innovación Ciencia y Empresa. J.And,45002,Al Consejo Social,107193
+34,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,450,Consej.Innovación Ciencia y Empresa. J.And,45004,Planes de apoyo PRAEM,425000
+35,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,450,Consej.Innovación Ciencia y Empresa. J.And,45005,Planes de apoyo Estudiantes y EEES,5050000
+36,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,450,Consej.Innovación Ciencia y Empresa. J.And,45007,Otros Planes de apoyo,1915000
+37,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,451,De otras Consejerías,45100,De Presidencia,50000
+38,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,451,De otras Consejerías,45101,De Gobernación,30000
+39,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,451,De otras Consejerías,45103,De Justicia y Administraciones Públic,30000
+40,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,451,De otras Consejerías,45105,De Empleo,75000
+41,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,451,De otras Consejerías,45106,"De Turismo, Comercio y Deporte",60000
+42,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,451,De otras Consejerías,45110,De Igualdad y Bienestar Social,75000
+43,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,451,De otras Consejerías,45111,De Cultura,75000
+44,2013,4,Transferencias corrientes,45,De Comunidades Autónomas,459,De otras Comunidades Autónomas,45902,De la Ciudad Autónoma de Ceuta,20000
+45,2013,4,Transferencias corrientes,46,De Corporaciones Locales,460,De Diputaciones y Cabildos Insulares,46000,De la Diputación de Granada,30000
+46,2013,4,Transferencias corrientes,46,De Corporaciones Locales,461,De Ayuntamientos,46100,Del Ayuntamiento de Granada,30000
+47,2013,4,Transferencias corrientes,46,De Corporaciones Locales,461,De Ayuntamientos,46199,De otros Ayuntamientos,30000
+48,2013,4,Transferencias corrientes,47,De empresas privadas,470,De entidades financieras,47001,De Caja Granada según Convenio,450000
+49,2013,4,Transferencias corrientes,47,De empresas privadas,470,De entidades financieras,47002,Del BSCH según Convenio,500000
+50,2013,4,Transferencias corrientes,47,De empresas privadas,479,De otras empresas,47900,Para prácticas educativas,250000
+51,2013,4,Transferencias corrientes,47,De empresas privadas,479,De otras empresas,47901,Para actividades académicas,75000
+52,2013,4,Transferencias corrientes,49,Del exterior,495,Otras transferencias de la Unión Europea,49500,Para programas europeos,4000000
+53,2013,5,Ingresos Patrimoniales,52,Intereses de depósitos,520,Intereses de cuentas bancarias,52000,De Caja Granada,200000
+54,2013,5,Ingresos Patrimoniales,52,Intereses de depósitos,520,Intereses de cuentas bancarias,52001,De otras cuentas y depósitos,300000
+55,2013,5,Ingresos Patrimoniales,53,Rentas de bienes inmuebles,541,Alquiler y productos de inmuebles,54101,Instalaciones deportivas,500000
+56,2013,5,Ingresos Patrimoniales,53,Rentas de bienes inmuebles,541,Alquiler y productos de inmuebles,54102,Aulas y otros recintos universitarios,100000
+57,2013,5,Ingresos Patrimoniales,59,Otros ingresos patrimoniales,551,De concesiones administrativas,551XX,De concesiones administrativas,400000
+58,2013,5,Ingresos Patrimoniales,59,Otros ingresos patrimoniales,591,Explotación de patentes,59100,Licencias y explotación de patentes,6000
+59,2013,7,Transferencias de capital,70,De la Administración General del Estado,700,Del Ministerio Educación,70000,Para investigación científica,17000000
+60,2013,7,Transferencias de capital,70,De la Administración General del Estado,700,Del Ministerio Educación,70007,Cofinanciación Progr.Operativ.FEDER,4900000
+61,2013,7,Transferencias de capital,70,De la Administración General del Estado,701,De otros Ministerios,70100,Para investigación científica,95000
+62,2013,7,Transferencias de capital,70,De la Administración General del Estado,702,Del Ministerio de Ciencia e Innovación,70200,INNPLANTA Conv. 2012,250000
+63,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,710,De Organismos autónomos estatales,71000,Del Instituto de Salud Carlos III,150000
+64,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,710,De Organismos autónomos estatales,71001,Del Instituto de la Mujer,35000
+65,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,710,De Organismos autónomos estatales,71002,Del Instituto Nacional Invest.Agrarias,40000
+66,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,710,De Organismos autónomos estatales,71003,Del Consejo Superior de Deportes,18000
+67,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,710,De Organismos autónomos estatales,71004,De la A.E.C.I.,200000
+68,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,710,De Organismos autónomos estatales,71005,Del C.S.I.C.,150000
+69,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,711,De Organismos autónomos Junta Andalucía,71101,Instituto Andaluz de la Mujer,50000
+70,2013,7,Transferencias de capital,71,De Organismos Autónomos Administrativos,711,De Organismos autónomos Junta Andalucía,71102,Instituto Estadística de Andalucía,50000
+71,2013,7,Transferencias de capital,74,De empresas públicas y otros entes públicos,740,De Otros Organismos,74001,De otros organismos,50000
+72,2013,7,Transferencias de capital,74,De empresas públicas y otros entes públicos,740,De Otros Organismos,74099,De Otros Entes Públicos,150000
+73,2013,7,Transferencias de capital,74,De empresas públicas y otros entes públicos,741,De Universidades,74100,De Universidades Andaluzas,50000
+74,2013,7,Transferencias de capital,74,De empresas públicas y otros entes públicos,741,De Universidades,74199,De Otras Universidades,150000
+75,2013,7,Transferencias de capital,75,De Comunidades Autónomas,750,Consej.Economía Innovación y  Ciencia J.A.,75000,Para investigación científica,8000000
+76,2013,7,Transferencias de capital,75,De Comunidades Autónomas,750,Consej.Economía Innovación y  Ciencia J.A.,75001,Plan Plurianual de Inversiones,20000000
+77,2013,7,Transferencias de capital,75,De Comunidades Autónomas,750,Consej.Economía Innovación y  Ciencia J.A.,75002,Cofinanciación Progr.Operativ.FEDER,2100000
+78,2013,7,Transferencias de capital,75,De Comunidades Autónomas,750,Consej.Economía Innovación y  Ciencia J.A.,75003,Proyecto Universidad Digital,0
+79,2013,7,Transferencias de capital,75,De Comunidades Autónomas,750,Consej.Economía Innovación y  Ciencia J.A.,75007,Financ Operat Investig,0
+80,2013,7,Transferencias de capital,75,De Comunidades Autónomas,750,Consej.Economía Innovación y  Ciencia J.A.,75008,CEI Fortalecimiento,0
+81,2013,7,Transferencias de capital,75,De Comunidades Autónomas,751,De otras Consejerías,75100,De Presidencia,25000
+82,2013,7,Transferencias de capital,75,De Comunidades Autónomas,751,De otras Consejerías,75101,De Gobernación,25000
+83,2013,7,Transferencias de capital,75,De Comunidades Autónomas,751,De otras Consejerías,75102,De Educación,25000
+84,2013,7,Transferencias de capital,75,De Comunidades Autónomas,751,De otras Consejerías,75103,De Justicia y Administraciones Públic,25000
+85,2013,7,Transferencias de capital,75,De Comunidades Autónomas,751,De otras Consejerías,75105,De Empleo,200000
+86,2013,7,Transferencias de capital,75,De Comunidades Autónomas,751,De otras Consejerías,75110,De Igualdad y Bienestar Social,20000
+87,2013,7,Transferencias de capital,75,De Comunidades Autónomas,751,De otras Consejerías,75111,De Cultura,20000
+88,2013,7,Transferencias de capital,75,De Comunidades Autónomas,759,De otras Comunidades Autónomas,75909,De resto de Comunidades Autónomas,25000
+89,2013,7,Transferencias de capital,76,De Corporaciones Locales,760,De Diputaciones y Cabildos Insulares,76000,De la Diputación de Granada,10000
+90,2013,7,Transferencias de capital,76,De Corporaciones Locales,760,De Diputaciones y Cabildos Insulares,76099,De otras Diputaciones Provinciales,10000
+91,2013,7,Transferencias de capital,76,De Corporaciones Locales,761,De Ayuntamientos,76100,Del Ayuntamiento de Granada,10000
+92,2013,7,Transferencias de capital,77,De empresas privadas,770,De entidades financieras,77001,De Caja Granada,450000
+93,2013,7,Transferencias de capital,77,De empresas privadas,770,De entidades financieras,77002,Del BSCH,500000
+94,2013,7,Transferencias de capital,77,De empresas privadas,770,De entidades financieras,77003,De Caja Rural,250000
+95,2013,7,Transferencias de capital,77,De empresas privadas,779,De otras empresas,77003,De Caja Rural,200000
+96,2013,7,Transferencias de capital,78,De familias e instituciones sin fines de lucro,781,De instituciones y fundaciones,78100,Para investigación científica,200000
+97,2013,7,Transferencias de capital,79,Del exterior,795,Otras transferencias de la Unión Europea,79500,Para investigación científica,3500000
+98,2013,8,Activos financieros,82,Reintegro de préstamos concedidos,821,A largo plazo,82100,Del personal de la Universidad,650000

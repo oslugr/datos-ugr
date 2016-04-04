@@ -1,0 +1,5 @@
+Antgüedad del edificio,Coeficiente
+> 0 años a <= 10 años,1.25
+> 10 años a <= 20 años,1.5
+> 20 años a <= 30 años,1.75
+> 30 años,2
