@@ -1,0 +1,41 @@
+Colectivo,Grupo,Género,%Grupo,%Colectivo,%Sector,%Plantilla
+Pas Funcionario,A1,Hombre,53.13%,8.67%,4.10%,1.56%
+Pas Funcionario,A1,Mujer,46.88%,7.65%,3.62%,1.38%
+Pas Funcionario,A2,Hombre,48.91%,9.18%,4.34%,1.65%
+Pas Funcionario,A2,Mujer,51.09%,9.59%,4.54%,1.73%
+Pas Funcionario,C1,Hombre,42.83%,22.24%,10.52%,4.01%
+Pas Funcionario,C1,Mujer,57.17%,29.69%,14.04%,5.35%
+Pas Funcionario,C2,Hombre,40.94%,5.31%,2.51%,0.96%
+Pas Funcionario,C2,Mujer,59.06%,7.65%,3.62%,1.38%
+Pas Laboral,G1,Hombre,55.56%,1.37%,0.72%,0.28%
+Pas Laboral,G1,Mujer,44.44%,1.10%,0.58%,0.22%
+Pas Laboral,G2,Hombre,54.00%,2.47%,1.30%,0.50%
+Pas Laboral,G2,Mujer,46.00%,2.11%,1.11%,0.42%
+Pas Laboral,G3,Hombre,60.61%,25.64%,13.51%,5.14%
+Pas Laboral,G3,Mujer,39.39%,16.67%,8.78%,3.34%
+Pas Laboral,G4,Hombre,23.87%,12.09%,6.37%,2.43%
+Pas Laboral,G4,Mujer,76.13%,38.55%,20.32%,7.73%
+Pdi Contratado,Contr.Doctor,Hombre,51.66%,13.68%,5.07%,3.14%
+Pdi Contratado,Contr.Doctor,Mujer,48.34%,12.80%,4.75%,2.94%
+Pdi Contratado,Ayud Doctor,Hombre,52.47%,6.80%,2.52%,1.56%
+Pdi Contratado,Ayud Doctor,Mujer,47.53%,6.16%,2.28%,1.41%
+Pdi Contratado,Asociad,Hombre,69.60%,20.88%,7.74%,4.80%
+Pdi Contratado,Asociad,Mujer,30.40%,9.12%,3.38%,2.09%
+Pdi Contratado,Ayudante,Hombre,60.00%,0.24%,0.09%,0.06%
+Pdi Contratado,Ayudante,Mujer,40.00%,0.16%,0.06%,0.04%
+Pdi Contratado,Asoc.Salud,Hombre,67.16%,10.96%,4.06%,2.52%
+Pdi Contratado,Asoc.Salud,Mujer,32.84%,5.36%,1.99%,1.23%
+Pdi Contratado,Colaborador,Hombre,51.35%,6.08%,2.25%,1.40%
+Pdi Contratado,Colaborador,Mujer,48.65%,5.76%,2.14%,1.32%
+Pdi Contratado,Otros,Hombre,56.00%,1.12%,0.42%,0.26%
+Pdi Contratado,Otros,Mujer,44.00%,0.88%,0.33%,0.20%
+Pdi Funcionario,CU,Hombre,78.28%,21.40%,13.47%,8.34%
+Pdi Funcionario,CU,Mujer,21.72%,5.94%,3.74%,2.31%
+Pdi Funcionario,CEU,Hombre,75.00%,1.13%,0.71%,0.44%
+Pdi Funcionario,CEU,Mujer,25.00%,0.38%,0.24%,0.15%
+Pdi Funcionario,TU,Hombre,60.33%,39.51%,24.86%,15.40%
+Pdi Funcionario,TU,Mujer,39.67%,25.98%,16.35%,10.12%
+Pdi Funcionario,TEU,Hombre,51.49%,2.45%,1.54%,0.96%
+Pdi Funcionario,TEU,Mujer,48.51%,2.31%,1.45%,0.90%
+Pdi Funcionario,OTROS,Hombre,42.11%,0.38%,0.24%,0.15%
+Pdi Funcionario,OTROS,Mujer,57.89%,0.52%,0.33%,0.20%
