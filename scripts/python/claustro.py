@@ -30,18 +30,45 @@ import requests
 url = "https://oficinavirtual.ugr.es"
 
 paneles = requests.get(url + "/claustro/index.jsp")
-
 statusCode = paneles.status_code
+
 if statusCode == 200:
-
     html = BeautifulSoup(paneles.text, 'html.parser')
-    titulos = html.find_all('h4',{'class':'panel-title'})
+    categorias = html.find_all('h4',{'class':'panel-title'})
 
-    for i, titulo in enumerate(titulos):
-        enlace = titulo.find('a').get('href')
-        sector = titulo.find('span', {'class' : 'nombreSector'}).getText()
+    for categoria in categorias:
+        sector = categoria.find('span', {'class' : 'nombreSector'}).getText()
+        enlace = categoria.find('a').get('href')
 
-        print "%d\n%s\n%s\n" %(i+1, enlace, sector)
+        subpaneles = requests.get(url + enlace)
+        statusCode = subpaneles.status_code
 
+        print "\n\n" + sector
+
+        if statusCode == 200:
+            subhtml = BeautifulSoup(subpaneles.text, 'html.parser')
+            centros = subhtml.find_all('div',{'class':'panel-default'})
+
+            for centro in centros:
+                cabecera = centro.find('div',{'class':'panel-heading'})
+                filas = centro.find('tbody').find_all('tr')
+
+                nombre = cabecera.find('p',{'class':'text-left'}).getText()
+                num = cabecera.find('p',{'class':'text-right'}).getText().replace('\n', ' ').replace('                          /                                                   ', ' - ').strip()
+
+                print "\n\n" + nombre + "\n" + num
+                print "\nPosición; Candidatos/as; Votos"
+
+                for fila in filas:
+                    valores = fila.find_all('td')
+
+                    posicion = valores[0].getText().replace('\n', ' ').strip()
+                    candidato = valores[1].getText().replace('\n', ' ').strip()
+                    votos = valores[2].getText().replace('\n', ' ').strip()
+
+                    print posicion + "; " + candidato + "; " + votos
+
+        else:
+            print "Status Code %d" %statusCode
 else:
     print "Status Code %d" %statusCode
