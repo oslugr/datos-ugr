@@ -51,22 +51,26 @@ if statusCode == 200:
 
             for centro in centros:
                 cabecera = centro.find('div',{'class':'panel-heading'})
-                filas = centro.find('tbody').find_all('tr')
 
                 nombre = cabecera.find('p',{'class':'text-left'}).getText()
                 num = cabecera.find('p',{'class':'text-right'}).getText().replace('\n', ' ').replace('                          /                                                   ', ' - ').strip()
 
-                print "\n\n" + nombre + "\n" + num
-                print "\nPosición; Candidatos/as; Votos"
+                print "\n" + nombre + "\n" + num
 
-                for fila in filas:
-                    valores = fila.find_all('td')
+                try:
+                    filas = centro.find('tbody').find_all('tr')
+                    print "Posición; Candidatos/as; Votos"
 
-                    posicion = valores[0].getText().replace('\n', ' ').strip()
-                    candidato = valores[1].getText().replace('\n', ' ').strip()
-                    votos = valores[2].getText().replace('\n', ' ').strip()
+                    for fila in filas:
+                        valores = fila.find_all('td')
 
-                    print posicion + "; " + candidato + "; " + votos
+                        posicion = valores[0].getText().replace('\n', ' ').strip()
+                        candidato = valores[1].getText().replace('\n', ' ').strip()
+                        votos = valores[2].getText().replace('\n', ' ').strip()
+
+                        print posicion + "; " + candidato + "; " + votos
+                except AttributeError:
+                    print "NO SE HAN PRESENTADO CANDIDATURAS"
 
         else:
             print "Status Code %d" %statusCode
