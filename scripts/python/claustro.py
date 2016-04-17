@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
+# encoding=utf8
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 '''
   Copyright (C) 2016 Germán Martínez Maldonado
@@ -26,53 +30,54 @@ Dependencias:
 
 from bs4 import BeautifulSoup
 import requests
+import codecs
+
+archivo = codecs.open("claustro.csv", "w", "utf-8")
 
 url = "https://oficinavirtual.ugr.es"
 
 paneles = requests.get(url + "/claustro/index.jsp")
-statusCode = paneles.status_code
 
-if statusCode == 200:
-    html = BeautifulSoup(paneles.text, 'html.parser')
-    categorias = html.find_all('h4',{'class':'panel-title'})
+html = BeautifulSoup(paneles.text, 'html.parser')
+categorias = html.find_all('h4',{'class':'panel-title'})
 
-    for categoria in categorias:
-        sector = categoria.find('span', {'class' : 'nombreSector'}).getText()
-        enlace = categoria.find('a').get('href')
+for categoria in categorias:
+    sector = categoria.find('span', {'class' : 'nombreSector'}).getText()
+    enlace = categoria.find('a').get('href')
 
-        subpaneles = requests.get(url + enlace)
-        statusCode = subpaneles.status_code
+    subpaneles = requests.get(url + enlace)
 
-        print "\n\n" + sector
+    #print "\n\n" + sector
+    archivo.write("\n\n" + sector)
 
-        if statusCode == 200:
-            subhtml = BeautifulSoup(subpaneles.text, 'html.parser')
-            centros = subhtml.find_all('div',{'class':'panel-default'})
+    subhtml = BeautifulSoup(subpaneles.text, 'html.parser')
+    centros = subhtml.find_all('div',{'class':'panel-default'})
 
-            for centro in centros:
-                cabecera = centro.find('div',{'class':'panel-heading'})
+    for centro in centros:
+        cabecera = centro.find('div',{'class':'panel-heading'})
 
-                nombre = cabecera.find('p',{'class':'text-left'}).getText()
-                num = cabecera.find('p',{'class':'text-right'}).getText().replace('\n', ' ').replace('                          /                                                   ', ' - ').strip()
+        nombre = cabecera.find('p',{'class':'text-left'}).getText()
+        num = cabecera.find('p',{'class':'text-right'}).getText().replace('\n', ' ').replace('                          /                                                   ', ' - ').strip()
 
-                print "\n" + nombre + "\n" + num
+        #print "\n" + nombre + "\n" + num
+        archivo.write("\n" + nombre + "\n" + num)
 
-                try:
-                    filas = centro.find('tbody').find_all('tr')
-                    print "Posición; Candidatos/as; Votos"
+        try:
+            filas = centro.find('tbody').find_all('tr')
+            #print "Posición; Candidatos/as; Votos"
+            archivo.write("Posición; Candidatos/as; Votos")
 
-                    for fila in filas:
-                        valores = fila.find_all('td')
+            for fila in filas:
+                valores = fila.find_all('td')
 
-                        posicion = valores[0].getText().replace('\n', ' ').strip()
-                        candidato = valores[1].getText().replace('\n', ' ').strip()
-                        votos = valores[2].getText().replace('\n', ' ').strip()
+                posicion = valores[0].getText().replace('\n', ' ').strip()
+                candidato = valores[1].getText().replace('\n', ' ').strip()
+                votos = valores[2].getText().replace('\n', ' ').strip()
 
-                        print posicion + "; " + candidato + "; " + votos
-                except AttributeError:
-                    print "NO SE HAN PRESENTADO CANDIDATURAS"
+                #print posicion + "; " + candidato + "; " + votos
+                archivo.write(posicion + "; " + candidato + "; " + votos)
+        except AttributeError:
+            #print "NO SE HAN PRESENTADO CANDIDATURAS"
+            archivo.write("NO SE HAN PRESENTADO CANDIDATURAS")
 
-        else:
-            print "Status Code %d" %statusCode
-else:
-    print "Status Code %d" %statusCode
+archivo.close()
