@@ -65,7 +65,7 @@ for categoria in categorias:
         try:
             filas = centro.find('tbody').find_all('tr')
             #print "Posición; Candidatos/as; Votos"
-            archivo.write("Posición; Candidatos/as; Votos")
+            archivo.write("\n" + "Posición; Candidatos/as; Votos")
 
             for fila in filas:
                 valores = fila.find_all('td')
@@ -75,9 +75,9 @@ for categoria in categorias:
                 votos = valores[2].getText().replace('\n', ' ').strip()
 
                 #print posicion + "; " + candidato + "; " + votos
-                archivo.write(posicion + "; " + candidato + "; " + votos)
+                archivo.write("\n" + posicion + "; " + candidato + "; " + votos)
         except AttributeError:
             #print "NO SE HAN PRESENTADO CANDIDATURAS"
-            archivo.write("NO SE HAN PRESENTADO CANDIDATURAS")
+            archivo.write("\nNO SE HAN PRESENTADO CANDIDATURAS")
 
 archivo.close()
