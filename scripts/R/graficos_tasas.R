@@ -3,7 +3,7 @@
 #install.packages("ggplot2")
 library("ggplot2")
 
-archivo="./tasas_academicas_2015.csv"
+archivo <- paste(getwd(), "/tasas_academicas_2015.csv", sep="")
 datos <- read.csv(file=archivo, header=TRUE, sep=",", dec=".")
 
 tasa=datos$TASA.ABANDONO
