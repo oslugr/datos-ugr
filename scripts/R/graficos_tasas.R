@@ -1,7 +1,9 @@
 #!/usr/bin/env Rscript
 
-#install.packages("ggplot2")
+                                        #install.packages("ggplot2")
+                                        #install.packages("ggthemes")
 library("ggplot2")
+library("ggthemes")
 
 archivo <- paste(getwd(), "/tasas_academicas_2015.csv", sep="")
 datos <- read.csv(file=archivo, header=TRUE, sep=",", dec=".")
