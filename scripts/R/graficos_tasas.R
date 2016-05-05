@@ -9,11 +9,11 @@ tasas_2012 <- paste(getwd(), "/tasas_academicas_2012.csv", sep="")
 tasas_2013 <- paste(getwd(), "/tasas_academicas_2013.csv", sep="")
 tasas_2014 <- paste(getwd(), "/tasas_academicas_2014.csv", sep="")
 tasas_2015 <- paste(getwd(), "/tasas_academicas_2015.csv", sep="")
-datos_2011 <- read.csv(file=tasas_2011, header=TRUE, sep=",", dec=",")
-datos_2012 <- read.csv(file=tasas_2012, header=TRUE, sep=",", dec=",")
-datos_2013 <- read.csv(file=tasas_2013, header=TRUE, sep=",", dec=",")
-datos_2014 <- read.csv(file=tasas_2014, header=TRUE, sep=",", dec=",")
-datos_2015 <- read.csv(file=tasas_2015, header=TRUE, sep=",", dec=",")
+datos_2011 <- read.csv(file=tasas_2011, header=TRUE, fileEncoding = "iso-8859-1", sep=",", dec=",")
+datos_2012 <- read.csv(file=tasas_2012, header=TRUE, fileEncoding = "iso-8859-1", sep=",", dec=",")
+datos_2013 <- read.csv(file=tasas_2013, header=TRUE, fileEncoding = "iso-8859-1", sep=",", dec=",")
+datos_2014 <- read.csv(file=tasas_2014, header=TRUE, fileEncoding = "iso-8859-1", sep=",", dec=",")
+datos_2015 <- read.csv(file=tasas_2015, header=TRUE, fileEncoding = "iso-8859-1", sep=",", dec=",")
 
 # Gráfico tasa rendimiento 2011
 png("tasa_rendimiento_2011.png", width = 1221, height = 1000, units = 'px')
@@ -22,9 +22,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.RENDIMIENTO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=2) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
-  ggtitle("TASA DE RENDIMIENTO POR TITULACION DEL AÑO 2011") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
+  xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
+  ggtitle("TASA DE RENDIMIENTO POR TITULACIÓN DEL AÑO 2011") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.x=element_text(family = "Lucida Bright"), 
         axis.text.y=element_text(size=10))
 dev.off()
 
@@ -35,10 +36,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.RENDIMIENTO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=2) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
-  ggtitle("TASA DE RENDIMIENTO POR TITULACION DEL AÑO 2012") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
+  ggtitle("TASA DE RENDIMIENTO POR TITULACIÓN DEL AÑO 2012") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa rendimiento 2013
@@ -48,10 +49,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.RENDIMIENTO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=2) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
-  ggtitle("TASA DE RENDIMIENTO POR TITULACION DEL AÑO 2013") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
+  ggtitle("TASA DE RENDIMIENTO POR TITULACIÓN DEL AÑO 2013") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa rendimiento 2014
@@ -61,10 +62,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.RENDIMIENTO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=2) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
-  ggtitle("TASA DE RENDIMIENTO POR TITULACION DEL AÑO 2014") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
+  ggtitle("TASA DE RENDIMIENTO POR TITULACIÓN DEL AÑO 2014") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa rendimiento 2015
@@ -74,10 +75,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.RENDIMIENTO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=2) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
-  ggtitle("TASA DE RENDIMIENTO POR TITULACION DEL AÑO 2015") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
+  ggtitle("TASA DE RENDIMIENTO POR TITULACIÓN DEL AÑO 2015") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa exito 2011
@@ -87,10 +88,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.EXITO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.EXITO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=3) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE EXITO (%)") + coord_flip() + 
-  ggtitle("TASA DE EXITO POR TITULACION DEL AÑO 2011") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ÉXITO (%)") + coord_flip() + 
+  ggtitle("TASA DE ÉXITO POR TITULACIÓN DEL AÑO 2011") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa exito 2012
@@ -100,10 +101,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.EXITO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.EXITO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=3) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE EXITO (%)") + coord_flip() + 
-  ggtitle("TASA DE EXITO POR TITULACION DEL AÑO 2012") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ÉXITO (%)") + coord_flip() + 
+  ggtitle("TASA DE ÉXITO POR TITULACIÓN DEL AÑO 2012") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa exito 2013
@@ -113,10 +114,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.EXITO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.EXITO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=3) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE EXITO (%)") + coord_flip() + 
-  ggtitle("TASA DE EXITO POR TITULACION DEL AÑO 2013") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ÉXITO (%)") + coord_flip() + 
+  ggtitle("TASA DE ÉXITO POR TITULACIÓN DEL AÑO 2013") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa exito 2014
@@ -126,10 +127,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.EXITO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.EXITO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=3) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE EXITO (%)") + coord_flip() + 
-  ggtitle("TASA DE EXITO POR TITULACION DEL AÑO 2014") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ÉXITO (%)") + coord_flip() + 
+  ggtitle("TASA DE ÉXITO POR TITULACIÓN DEL AÑO 2014") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa exito 2015
@@ -139,10 +140,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.EXITO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.EXITO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=3) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE EXITO (%)") + coord_flip() + 
-  ggtitle("TASA DE EXITO POR TITULACION DEL AÑO 2015") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ÉXITO (%)") + coord_flip() + 
+  ggtitle("TASA DE ÉXITO POR TITULACIÓN DEL AÑO 2015") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa abandono inicial 2013
@@ -152,10 +153,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.ABANDONO.INICIAL)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.ABANDONO.INICIAL)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=4) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE ABANDONO INICIAL (%)") + coord_flip() + 
-  ggtitle("TASA DE ABANDONO INICIAL POR TITULACION DEL AÑO 2013") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ABANDONO INICIAL (%)") + coord_flip() + 
+  ggtitle("TASA DE ABANDONO INICIAL POR TITULACIÓN DEL AÑO 2013") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa abandono inicial 2014
@@ -165,10 +166,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.ABANDONO.INICIAL)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.ABANDONO.INICIAL)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=4) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE ABANDONO INICIAL (%)") + coord_flip() + 
-  ggtitle("TASA DE ABANDONO INICIAL POR TITULACION DEL AÑO 2014") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ABANDONO INICIAL (%)") + coord_flip() + 
+  ggtitle("TASA DE ABANDONO INICIAL POR TITULACIÓN DEL AÑO 2014") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa abandono inicial 2015
@@ -178,10 +179,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.ABANDONO.INICIAL)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.ABANDONO.INICIAL)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=4) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE ABANDONO INICIAL (%)") + coord_flip() + 
-  ggtitle("TASA DE ABANDONO INICIAL POR TITULACION DEL AÑO 2015") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ABANDONO INICIAL (%)") + coord_flip() + 
+  ggtitle("TASA DE ABANDONO INICIAL POR TITULACIÓN DEL AÑO 2015") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa eficiencia 2014
@@ -191,10 +192,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.EFICIENCIA)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.EFICIENCIA)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=5) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE EFICIENCIA (%)") + coord_flip() + 
-  ggtitle("TASA DE EFICIENCIA POR TITULACION DEL AÑO 2014") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE EFICIENCIA (%)") + coord_flip() + 
+  ggtitle("TASA DE EFICIENCIA POR TITULACIÓN DEL AÑO 2014") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa eficiencia 2015
@@ -204,10 +205,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.EFICIENCIA)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.EFICIENCIA)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=5) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE EFICIENCIA (%)") + coord_flip() + 
-  ggtitle("TASA DE EFICIENCIA POR TITULACION DEL AÑO 2015") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE EFICIENCIA (%)") + coord_flip() + 
+  ggtitle("TASA DE EFICIENCIA POR TITULACIÓN DEL AÑO 2015") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa graduacion 2015
@@ -217,10 +218,10 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.GRADUACION)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.GRADUACION)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=6) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE GRADUACION (%)") + coord_flip() + 
-  ggtitle("TASA DE GRADUACION POR TITULACION DEL AÑO 2015") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE GRADUACION (%)") + coord_flip() + 
+  ggtitle("TASA DE GRADUACION POR TITULACIÓN DEL AÑO 2015") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
 
 # Gráfico tasa abandono 2015
@@ -230,8 +231,8 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.ABANDONO)
 ggplot(valores, aes(x=TITULO, y=valores$TASA.ABANDONO)) + 
   geom_bar(width=.5, stat="identity", colour = "black", fill=7) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
-  xlab("TITULACION") + ylab("TASA DE ABANDONO (%)") + coord_flip() + 
-  ggtitle("TASA DE ABANDONO POR TITULACION DEL AÑO 2015") + 
-  theme(plot.title=element_text(face="bold", size=20), axis.title=element_text(size=15), 
-        axis.text.y=element_text(size=10))
+  xlab("TITULACIÓN") + ylab("TASA DE ABANDONO (%)") + coord_flip() + 
+  ggtitle("TASA DE ABANDONO POR TITULACIÓN DEL AÑO 2015") + 
+  theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
+        axis.title=element_text(size=15), axis.text.y=element_text(size=10))
 dev.off()
