@@ -18,15 +18,23 @@ datos_2015 <- read.csv(file=tasas_2015, header=TRUE, fileEncoding = "iso-8859-1"
 # Gráfico tasa rendimiento 2011
 png("tasa_rendimiento_2011.png", width = 1221, height = 1000, units = 'px')
 valores <- data.frame(datos_2011[, c(1, 2)])[!is.na(data.frame(datos_2011[, c(1, 2)])$TASA.RENDIMIENTO),]
+valores$Color <- 3
+media_2011tasaRendimiento <- mean(valores$TASA.RENDIMIENTO)
+valores$TITULO <- as.character(valores$TITULO)
+valores <- rbind(valores, c("VALOR PROMEDIO", media_2011tasaRendimiento, NA))
+valores$TITULO <- as.factor(valores$TITULO)
+valores$TASA.RENDIMIENTO <- as.numeric(valores$TASA.RENDIMIENTO)
+valores$Color <- as.numeric(valores$Color)
 valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
-ggplot(valores, aes(x=TITULO, y=valores$TASA.RENDIMIENTO)) + 
-  geom_bar(width=.5, stat="identity", colour = "black", fill=2) + 
+
+ggplot(valores, aes(x=TITULO, y=valores$TASA.RENDIMIENTO, fill=Color)) + 
+  geom_bar(width=.5, stat="identity", colour = "black") + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
   xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
   ggtitle("TASA DE RENDIMIENTO POR TITULACIÓN DEL AÑO 2011") + 
   theme(plot.title=element_text(family = "Lucida Bright", face="bold", size=20), 
         axis.title=element_text(size=15), axis.text.x=element_text(family = "Lucida Bright"), 
-        axis.text.y=element_text(size=10))
+        axis.text.y=element_text(size=10), legend.position="none")
 dev.off()
 
 # Gráfico tasa rendimiento 2012
