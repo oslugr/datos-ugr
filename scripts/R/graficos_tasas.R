@@ -19,17 +19,21 @@ datos_2015 <- read.csv(file=tasas_2015, header=TRUE, fileEncoding = "iso-8859-1"
 png("tasa_rendimiento_2011.png", width = 1221, height = 1000, units = 'px')
 valores <- data.frame(datos_2011[, c(1, 2)])[!is.na(data.frame(datos_2011[, c(1, 2)])$TASA.RENDIMIENTO),]
 valores$Color <- "SI"
+valores$Error <- NA
 media_2011tasaRendimiento <- mean(valores$TASA.RENDIMIENTO)
+desviacion_2011tasaRendimiento <- sd(valores$TASA.RENDIMIENTO)
 valores$TITULO <- as.character(valores$TITULO)
-valores <- rbind(valores, c("VALOR PROMEDIO", media_2011tasaRendimiento, "NO"))
+valores <- rbind(valores, c("VALOR PROMEDIO", media_2011tasaRendimiento, "NO", media_2011tasaRendimiento))
 valores$TITULO <- as.factor(valores$TITULO)
 valores$TASA.RENDIMIENTO <- as.numeric(valores$TASA.RENDIMIENTO)
 valores$Color <- as.factor(valores$Color)
+valores$Error <- as.numeric(valores$Error)
 valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
 
 ggplot(valores, aes(x=TITULO, y=TASA.RENDIMIENTO)) + 
   geom_bar(aes(fill=Color), width=.5, stat="identity", colour = "black") + 
-  scale_fill_manual(values=c("black", "red")) + 
+  geom_errorbar(aes(ymin=Error-desviacion_2011tasaRendimiento, ymax=Error+desviacion_2011tasaRendimiento), width=.2, position=position_dodge(.9)) +
+  scale_fill_manual(values=c("blue", "red")) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
   xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
   ggtitle("TASA DE RENDIMIENTO POR TITULACIÓN DEL AÑO 2011") + 
