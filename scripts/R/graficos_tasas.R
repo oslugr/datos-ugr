@@ -22,6 +22,7 @@ valores$Color <- "SI"
 valores$Error <- NA
 media_2011tasaRendimiento <- mean(valores$TASA.RENDIMIENTO)
 desviacion_2011tasaRendimiento <- sd(valores$TASA.RENDIMIENTO)
+mediana_2011tasaRendimiento <- median(valores$TASA.RENDIMIENTO)
 valores$TITULO <- as.character(valores$TITULO)
 valores <- rbind(valores, c("VALOR PROMEDIO", media_2011tasaRendimiento, "NO", media_2011tasaRendimiento))
 valores$TITULO <- as.factor(valores$TITULO)
@@ -33,6 +34,7 @@ valores$TITULO <- reorder(valores$TITULO, valores$TASA.RENDIMIENTO)
 ggplot(valores, aes(x=TITULO, y=TASA.RENDIMIENTO)) + 
   geom_bar(aes(fill=Color), width=.5, stat="identity", colour = "black") + 
   geom_errorbar(aes(ymin=Error-desviacion_2011tasaRendimiento, ymax=Error+desviacion_2011tasaRendimiento), width=.2, position=position_dodge(.9)) +
+  geom_hline(yintercept = mediana_2011tasaRendimiento) + 
   scale_fill_manual(values=c("blue", "red")) + 
   scale_y_continuous(expand = c(0, 1), limits = c(0, 100), breaks=seq(0, 100, 10)) +
   xlab("TITULACIÓN") + ylab("TASA DE RENDIMIENTO (%)") + coord_flip() + 
