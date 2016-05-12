@@ -21,7 +21,7 @@ datos_2015 <- read.csv(file=tasas_2015, header=TRUE, fileEncoding = "iso-8859-1"
 
 
 # DATOS TASA RENDIMIENTO 2011
-datos <- data.frame(datos_2011[, c(1, 2)])[!is.na(data.frame(datos_2011[, c(1, 2)])$TASA.RENDIMIENTO),]
+datos <- data.frame(datos_2011[, c(2, 3)])[!is.na(data.frame(datos_2011[, c(2, 3)])$TASA.RENDIMIENTO),]
 datos <- rename(datos, c("TASA.RENDIMIENTO"="TASA"))
 
 salida <- "tasa_rendimiento_2011.png"
@@ -66,7 +66,7 @@ dev.off()
 
 
 # DATOS TASA RENDIMIENTO 2012
-datos <- data.frame(datos_2012[, c(1, 2)])[!is.na(data.frame(datos_2012[, c(1, 2)])$TASA.RENDIMIENTO),]
+datos <- data.frame(datos_2012[, c(2, 3)])[!is.na(data.frame(datos_2012[, c(2, 3)])$TASA.RENDIMIENTO),]
 datos <- rename(datos, c("TASA.RENDIMIENTO"="TASA"))
 
 salida <- "tasa_rendimiento_2012.png"
@@ -111,7 +111,7 @@ dev.off()
 
 
 # DATOS TASA RENDIMIENTO 2013
-datos <- data.frame(datos_2013[, c(1, 2)])[!is.na(data.frame(datos_2013[, c(1, 2)])$TASA.RENDIMIENTO),]
+datos <- data.frame(datos_2013[, c(2, 3)])[!is.na(data.frame(datos_2013[, c(2, 3)])$TASA.RENDIMIENTO),]
 datos <- rename(datos, c("TASA.RENDIMIENTO"="TASA"))
 
 salida <- "tasa_rendimiento_2013.png"
@@ -156,7 +156,7 @@ dev.off()
 
 
 # DATOS TASA RENDIMIENTO 2014
-datos <- data.frame(datos_2014[, c(1, 2)])[!is.na(data.frame(datos_2014[, c(1, 2)])$TASA.RENDIMIENTO),]
+datos <- data.frame(datos_2014[, c(2, 3)])[!is.na(data.frame(datos_2014[, c(2, 3)])$TASA.RENDIMIENTO),]
 datos <- rename(datos, c("TASA.RENDIMIENTO"="TASA"))
 
 salida <- "tasa_rendimiento_2014.png"
@@ -201,7 +201,7 @@ dev.off()
 
 
 # DATOS TASA RENDIMIENTO 2015
-datos <- data.frame(datos_2015[, c(1, 2)])[!is.na(data.frame(datos_2015[, c(1, 2)])$TASA.RENDIMIENTO),]
+datos <- data.frame(datos_2015[, c(2, 3)])[!is.na(data.frame(datos_2015[, c(2, 3)])$TASA.RENDIMIENTO),]
 datos <- rename(datos, c("TASA.RENDIMIENTO"="TASA"))
 
 salida <- "tasa_rendimiento_2015.png"
@@ -246,7 +246,7 @@ dev.off()
 
 
 # DATOS TASA ÉXITO 2011
-datos <- data.frame(datos_2011[, c(1, 3)])[!is.na(data.frame(datos_2011[, c(1, 3)])$TASA.EXITO),]
+datos <- data.frame(datos_2011[, c(2, 4)])[!is.na(data.frame(datos_2011[, c(2, 4)])$TASA.EXITO),]
 datos <- rename(datos, c("TASA.EXITO"="TASA"))
 
 salida <- "tasa_exito_2011.png"
@@ -291,7 +291,7 @@ dev.off()
 
 
 # DATOS TASA ÉXITO 2012
-datos <- data.frame(datos_2012[, c(1, 3)])[!is.na(data.frame(datos_2012[, c(1, 3)])$TASA.EXITO),]
+datos <- data.frame(datos_2012[, c(2, 4)])[!is.na(data.frame(datos_2012[, c(2, 4)])$TASA.EXITO),]
 datos <- rename(datos, c("TASA.EXITO"="TASA"))
 
 salida <- "tasa_exito_2012.png"
@@ -336,7 +336,7 @@ dev.off()
 
 
 # DATOS TASA ÉXITO 2013
-datos <- data.frame(datos_2013[, c(1, 3)])[!is.na(data.frame(datos_2013[, c(1, 3)])$TASA.EXITO),]
+datos <- data.frame(datos_2013[, c(2, 4)])[!is.na(data.frame(datos_2013[, c(2, 4)])$TASA.EXITO),]
 datos <- rename(datos, c("TASA.EXITO"="TASA"))
 
 salida <- "tasa_exito_2013.png"
@@ -381,7 +381,7 @@ dev.off()
 
 
 # DATOS TASA ÉXITO 2014
-datos <- data.frame(datos_2014[, c(1, 3)])[!is.na(data.frame(datos_2014[, c(1, 3)])$TASA.EXITO),]
+datos <- data.frame(datos_2014[, c(2, 4)])[!is.na(data.frame(datos_2014[, c(2, 4)])$TASA.EXITO),]
 datos <- rename(datos, c("TASA.EXITO"="TASA"))
 
 salida <- "tasa_exito_2014.png"
@@ -426,7 +426,7 @@ dev.off()
 
 
 # DATOS TASA ÉXITO 2015
-datos <- data.frame(datos_2015[, c(1, 3)])[!is.na(data.frame(datos_2015[, c(1, 3)])$TASA.EXITO),]
+datos <- data.frame(datos_2015[, c(2, 4)])[!is.na(data.frame(datos_2015[, c(2, 4)])$TASA.EXITO),]
 datos <- rename(datos, c("TASA.EXITO"="TASA"))
 
 salida <- "tasa_exito_2015.png"
@@ -471,7 +471,7 @@ dev.off()
 
 
 # DATOS TASA ABANDONO INICIAL 2013
-datos <- data.frame(datos_2013[, c(1, 4)])[!is.na(data.frame(datos_2013[, c(1, 4)])$TASA.ABANDONO.INICIAL),]
+datos <- data.frame(datos_2013[, c(2, 5)])[!is.na(data.frame(datos_2013[, c(2, 5)])$TASA.ABANDONO.INICIAL),]
 datos <- rename(datos, c("TASA.ABANDONO.INICIAL"="TASA"))
 
 salida <- "tasa_abandono_inicial_2013.png"
@@ -516,7 +516,7 @@ dev.off()
 
 
 # DATOS TASA ABANDONO INICIAL 2014
-datos <- data.frame(datos_2014[, c(1, 4)])[!is.na(data.frame(datos_2014[, c(1, 4)])$TASA.ABANDONO.INICIAL),]
+datos <- data.frame(datos_2014[, c(2, 5)])[!is.na(data.frame(datos_2014[, c(2, 5)])$TASA.ABANDONO.INICIAL),]
 datos <- rename(datos, c("TASA.ABANDONO.INICIAL"="TASA"))
 
 salida <- "tasa_abandono_inicial_2014.png"
@@ -561,7 +561,7 @@ dev.off()
 
 
 # DATOS TASA ABANDONO INICIAL 2015
-datos <- data.frame(datos_2015[, c(1, 4)])[!is.na(data.frame(datos_2015[, c(1, 4)])$TASA.ABANDONO.INICIAL),]
+datos <- data.frame(datos_2015[, c(2, 5)])[!is.na(data.frame(datos_2015[, c(2, 5)])$TASA.ABANDONO.INICIAL),]
 datos <- rename(datos, c("TASA.ABANDONO.INICIAL"="TASA"))
 
 salida <- "tasa_abandono_inicial_2015.png"
@@ -606,7 +606,7 @@ dev.off()
 
 
 # DATOS TASA EFICIENCIA 2014
-datos <- data.frame(datos_2014[, c(1, 5)])[!is.na(data.frame(datos_2014[, c(1, 5)])$TASA.EFICIENCIA),]
+datos <- data.frame(datos_2014[, c(2, 6)])[!is.na(data.frame(datos_2014[, c(2, 6)])$TASA.EFICIENCIA),]
 datos <- rename(datos, c("TASA.EFICIENCIA"="TASA"))
 
 salida <- "tasa_eficiencia_2014.png"
@@ -639,7 +639,7 @@ ggplot(datos, aes(x=TITULO, y=TASA)) +
   geom_errorbar(aes(ymin=Error-desviacion, ymax=Error+desviacion), width=.2, 
                 position=position_dodge(.9)) + geom_hline(yintercept=mediana) + 
   scale_fill_manual(values=c(color2, color1)) + 
-  scale_y_continuous(expand=c(0, 1), limits=c(0, 100), breaks=seq(0, 100, 10)) +
+  scale_y_continuous(expand=c(0, 1), limits=c(70, 100), breaks=seq(70, 100, 10)) +
   xlab("TITULACIÓN") + ylab(etiquetaY) + coord_flip() + 
   ggtitle(titulo) + 
   theme(plot.title=element_text(family="Lucida Bright", face="bold", size=20), 
@@ -651,7 +651,7 @@ dev.off()
 
 
 # DATOS TASA EFICIENCIA 2015
-datos <- data.frame(datos_2015[, c(1, 5)])[!is.na(data.frame(datos_2015[, c(1, 5)])$TASA.EFICIENCIA),]
+datos <- data.frame(datos_2015[, c(2, 6)])[!is.na(data.frame(datos_2015[, c(2, 6)])$TASA.EFICIENCIA),]
 datos <- rename(datos, c("TASA.EFICIENCIA"="TASA"))
 
 salida <- "tasa_eficiencia_2015.png"
@@ -660,7 +660,7 @@ color2 <- "deepskyblue1"
 etiquetaY <- "TASA DE EFICIENCIA (%)"
 titulo <- "TASA DE EFICIENCIA POR TITULACIÓN DEL AÑO 2015"
 
-# GRÁFICO TASA EFICIENCIA 2014
+# GRÁFICO TASA EFICIENCIA 2015
 png(salida, width=1221, height=1000, units='px')
 datos$Color <- "SI"
 datos$Error <- NA
@@ -684,7 +684,7 @@ ggplot(datos, aes(x=TITULO, y=TASA)) +
   geom_errorbar(aes(ymin=Error-desviacion, ymax=Error+desviacion), width=.2, 
                 position=position_dodge(.9)) + geom_hline(yintercept=mediana) + 
   scale_fill_manual(values=c(color2, color1)) + 
-  scale_y_continuous(expand=c(0, 1), limits=c(0, 100), breaks=seq(0, 100, 10)) +
+  scale_y_continuous(expand=c(0, 1), limits=c(70, 100), breaks=seq(70, 100, 5)) +
   xlab("TITULACIÓN") + ylab(etiquetaY) + coord_flip() + 
   ggtitle(titulo) + 
   theme(plot.title=element_text(family="Lucida Bright", face="bold", size=20), 
@@ -696,7 +696,7 @@ dev.off()
 
 
 # DATOS TASA GRADUACIÓN 2015
-datos <- data.frame(datos_2015[, c(1, 6)])[!is.na(data.frame(datos_2015[, c(1, 6)])$TASA.GRADUACION),]
+datos <- data.frame(datos_2015[, c(2, 7)])[!is.na(data.frame(datos_2015[, c(2, 7)])$TASA.GRADUACION),]
 datos <- rename(datos, c("TASA.GRADUACION"="TASA"))
 
 salida <- "tasa_graduacion_2015.png"
@@ -741,7 +741,7 @@ dev.off()
 
 
 # DATOS TASA ABANDONO 2015
-datos <- data.frame(datos_2015[, c(1, 7)])[!is.na(data.frame(datos_2015[, c(1, 7)])$TASA.ABANDONO),]
+datos <- data.frame(datos_2015[, c(2, 8)])[!is.na(data.frame(datos_2015[, c(2, 8)])$TASA.ABANDONO),]
 datos <- rename(datos, c("TASA.ABANDONO"="TASA"))
 
 salida <- "tasa_abandono_2015.png"
