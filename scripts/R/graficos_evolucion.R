@@ -29,4 +29,4 @@ ggplot(reshape2::melt(datos_rendimiento), aes(variable, TITULO, color=TITULO, gr
   scale_x_discrete(labels=c("2011","2012","2013","2014","2015")) +  ggtitle(titulo) + 
   theme(plot.title=element_text(family="Lucida Bright", face="bold", size=20), 
         axis.title=element_text(size=15), axis.text.x=element_text(family="Lucida Bright"), 
-        axis.text.y=element_text(size=10), legend.position="none")
+    axis.text.y=element_text(size=10), legend.position="none")

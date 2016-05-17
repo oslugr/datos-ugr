@@ -4,6 +4,7 @@
 #install.packages("plyr")
 library("ggplot2")
 library("plyr")
+library("scales")
 
 # Archivos de datos
 tasas_2011 <- paste(getwd(), "/tasas_academicas_2011.csv", sep="")
@@ -639,8 +640,8 @@ ggplot(datos, aes(x=TITULO, y=TASA)) +
   geom_errorbar(aes(ymin=Error-desviacion, ymax=Error+desviacion), width=.2, 
                 position=position_dodge(.9)) + geom_hline(yintercept=mediana) + 
   scale_fill_manual(values=c(color2, color1)) + 
-  scale_y_continuous(expand=c(0, 1), limits=c(70, 100), breaks=seq(70, 100, 10)) +
-  xlab("TITULACIÓN") + ylab(etiquetaY) + coord_flip() + 
+  scale_y_continuous(expand=c(0, 1), limits=c(0, 100), breaks=seq(0, 100, 5)) +
+  xlab("TITULACIÓN") + ylab(etiquetaY) + coord_flip(ylim=c(75,100)) + 
   ggtitle(titulo) + 
   theme(plot.title=element_text(family="Lucida Bright", face="bold", size=20), 
         axis.title=element_text(size=15), axis.text.x=element_text(family="Lucida Bright"), 
@@ -684,8 +685,8 @@ ggplot(datos, aes(x=TITULO, y=TASA)) +
   geom_errorbar(aes(ymin=Error-desviacion, ymax=Error+desviacion), width=.2, 
                 position=position_dodge(.9)) + geom_hline(yintercept=mediana) + 
   scale_fill_manual(values=c(color2, color1)) + 
-  scale_y_continuous(expand=c(0, 1), limits=c(70, 100), breaks=seq(70, 100, 5)) +
-  xlab("TITULACIÓN") + ylab(etiquetaY) + coord_flip() + 
+  scale_y_continuous(expand=c(0, 1), limits=c(0, 100), breaks=seq(0, 100, 5)) +
+  xlab("TITULACIÓN") + ylab(etiquetaY) + coord_flip(ylim=c(75,100)) + 
   ggtitle(titulo) + 
   theme(plot.title=element_text(family="Lucida Bright", face="bold", size=20), 
         axis.title=element_text(size=15), axis.text.x=element_text(family="Lucida Bright"), 
