@@ -6,7 +6,7 @@ library("ggplot2")
 library("reshape2")
 
 # Archivos de datos
-tasa_rendimiento <- paste(getwd(), "/tasa_rendimiento_agrupada.csv", sep="")
+tasa_rendimiento <- paste(getwd(), "/tasa_rendimiento_agrupada_.csv", sep="")
 datos_rendimiento <- read.csv(file=tasa_rendimiento, header=TRUE, fileEncoding="iso-8859-1", sep=",")
 filas <- nrow(datos_rendimiento)
 etiquetaY <- "EVOLUCIÓN"

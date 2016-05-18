@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# -*- coding: iso-8859-1 -*-
 
 import sys
 
 reload(sys)
-sys.setdefaultencoding('utf-8')
+sys.setdefaultencoding('iso-8859-1')
 
 import csv
 
@@ -68,9 +68,4 @@ def processing(infile, outfile):
 			for row in lst:
 				writer.writerow(row)
 
-processing('tasa_rendimiento.csv', 'tasa_rendimiento_agrupada.csv')
-processing('tasa_exito.csv', 'tasa_exito_agrupada.csv')
-processing('tasa_abandono_inicial.csv', 'tasa_abandono_inicial_agrupada.csv')
-processing('tasa_eficiencia.csv', 'tasa_eficiencia_agrupada.csv')
-processing('tasa_graduacion.csv', 'tasa_graduacion_agrupada.csv')
-processing('tasa_abandono.csv', 'tasa_abandono_agrupada.csv')
+processing('../tasa_rendimiento.csv', 'tasa_rendimiento_agrupada.csv')
