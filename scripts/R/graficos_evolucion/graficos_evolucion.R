@@ -9,6 +9,7 @@ library("reshape2")
 tasa_rendimiento <- paste(getwd(), "/tasa_rendimiento_agrupada_.csv", sep="")
 datos_rendimiento <- read.csv(file=tasa_rendimiento, header=TRUE, fileEncoding="iso-8859-1", sep=",")
 datos_rendimiento_artes <- datos_rendimiento[datos_rendimiento[, "AREA"] == "ARTES Y HUMANIDADES",]
+filas_artes <- nrow(datos_rendimiento_artes)
 datos_rendimiento_artes$AREA <- NULL
 datos_rendimiento_artes$X2011 <- as.numeric(datos_rendimiento_artes$X2011)
 datos_rendimiento_artes$X2012 <- as.numeric(datos_rendimiento_artes$X2012)
@@ -26,5 +27,14 @@ datos_rendimiento_artes$ANIO[datos_rendimiento_artes$ANIO=="X2014"] <- 2014
 datos_rendimiento_artes$ANIO[datos_rendimiento_artes$ANIO=="X2015"] <- 2015
 datos_rendimiento_artes$ANIO <- factor(datos_rendimiento_artes$ANIO)
 
-p <- ggplot(datos_rendimiento_artes, aes(x=ANIO, y=VALOR, group=TITULO, colour=TITULO))
-p + geom_line()
+cc <- scales::seq_gradient_pal("cornsilk2", "black", "Lab")(seq(0,1,length.out=filas_artes))
+
+ggplot(datos_rendimiento_artes, aes(x=ANIO, y=VALOR, group=TITULO, colour=TITULO)) + 
+geom_line() + xlab("AÑO") + ylab("TASA RENDIMIENTO") +
+scale_colour_manual(values=cc) +
+ggtitle("EVOLUCIÓN TASA DE RENDIMIENTO EN ARTES Y HUMANIDADES") + 
+scale_y_continuous(expand=c(0.01, 0.01), limits=c(0, 100), breaks=seq(0, 100, 10)) +
+scale_x_discrete(limits=c("2011", "2012", "2013", "2014", "2015"), expand=c(0.05, 0.05)) +
+theme(plot.title=element_text(family="Lucida Bright", face="bold", size=20), 
+      axis.title=element_text(size=15), axis.text.x=element_text(family="Lucida Bright"), 
+      axis.text.y=element_text(size=10))
