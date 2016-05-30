@@ -6,7 +6,7 @@ library("ggplot2")
 library("reshape2")
 
 # Función para hacer gráfico genérico
-grafico <- function(datos_tasa, area){
+grafico <- function(datos_tasa, area, tasa){
   datos <- datos_tasa[datos_tasa[, "AREA"] == area,]
   orden <- as.character(factor(datos$TITULO))
   filas <- nrow(datos)
@@ -30,7 +30,7 @@ grafico <- function(datos_tasa, area){
   
   ggplot(datos, aes(x=ANIO, y=VALOR, group=TITULO, colour=TITULO)) + 
     geom_point() + geom_line() + xlab("AÑO") + ylab("POSICION") +
-    ggtitle(paste("EVOLUCIÓN TASA DE RENDIMIENTO EN", area, sep=" ")) + 
+    ggtitle(paste("EVOLUCIÓN TASA DE", tasa, "EN", area, sep=" ")) + 
     scale_y_reverse(expand=c(0.01, 0.01), limits=c(filas, 1), breaks=seq(1, filas, 1), 
                     labels=titulos) +
     scale_x_discrete(expand=c(0.02, 0.02)) +
@@ -43,26 +43,48 @@ grafico <- function(datos_tasa, area){
 
 # Archivos de datos
 tasa_rendimiento <- paste(getwd(), "/tasa_rendimiento_posicion.csv", sep="")
+tasa_exito <- paste(getwd(), "/tasa_exito_posicion.csv", sep="")
 datos_rendimiento <- read.csv(file=tasa_rendimiento, header=TRUE, fileEncoding="iso-8859-1", sep=",")
+datos_exito <- read.csv(file=tasa_exito, header=TRUE, fileEncoding="iso-8859-1", sep=",")
 
 if (!dir.exists("graph")) dir.create("graph", showWarnings = TRUE, recursive = FALSE, mode = "0777")
 
 png("graph/evolucion_rendimiento_artes.png", width=1221, height=1000, units='px')
-grafico(datos_rendimiento, "ARTES Y HUMANIDADES")
+grafico(datos_rendimiento, "ARTES Y HUMANIDADES", "RENDIMIENTO")
 dev.off()
 
 png("graph/evolucion_rendimiento_ciencias.png", width=1221, height=1000, units='px')
-grafico(datos_rendimiento, "CIENCIAS")
+grafico(datos_rendimiento, "CIENCIAS", "RENDIMIENTO")
 dev.off()
 
 png("graph/evolucion_rendimiento_salud.png", width=1221, height=1000, units='px')
-grafico(datos_rendimiento, "CIENCIAS DE LA SALUD")
+grafico(datos_rendimiento, "CIENCIAS DE LA SALUD", "RENDIMIENTO")
 dev.off()
 
 png("graph/evolucion_rendimiento_sociales.png", width=1221, height=1000, units='px')
-grafico(datos_rendimiento, "CIENCIAS SOCIALES Y JURÍDICAS")
+grafico(datos_rendimiento, "CIENCIAS SOCIALES Y JURÍDICAS", "RENDIMIENTO")
 dev.off()
 
 png("graph/evolucion_rendimiento_ingenieria.png", width=1221, height=1000, units='px')
-grafico(datos_rendimiento, "INGENIERÍA Y ARQUITECTURA")
+grafico(datos_rendimiento, "INGENIERÍA Y ARQUITECTURA", "RENDIMIENTO")
+dev.off()
+
+png("graph/evolucion_exito_artes.png", width=1221, height=1000, units='px')
+grafico(datos_exito, "ARTES Y HUMANIDADES", "EXITO")
+dev.off()
+
+png("graph/evolucion_exito_ciencias.png", width=1221, height=1000, units='px')
+grafico(datos_exito, "CIENCIAS", "EXITO")
+dev.off()
+
+png("graph/evolucion_exito_salud.png", width=1221, height=1000, units='px')
+grafico(datos_exito, "CIENCIAS DE LA SALUD", "EXITO")
+dev.off()
+
+png("graph/evolucion_exito_sociales.png", width=1221, height=1000, units='px')
+grafico(datos_exito, "CIENCIAS SOCIALES Y JURÍDICAS", "EXITO")
+dev.off()
+
+png("graph/evolucion_exito_ingenieria.png", width=1221, height=1000, units='px')
+grafico(datos_exito, "INGENIERÍA Y ARQUITECTURA", "EXITO")
 dev.off()

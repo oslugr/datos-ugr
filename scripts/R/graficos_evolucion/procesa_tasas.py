@@ -69,3 +69,8 @@ def processing(infile, outfile):
 				writer.writerow(row)
 
 processing('../tasa_rendimiento.csv', 'tasa_rendimiento_agrupada.csv')
+processing('../tasa_exito.csv', 'tasa_exito_agrupada.csv')
+processing('../tasa_abandono_inicial.csv', 'tasa_abandono_inicial_agrupada.csv')
+processing('../tasa_eficiencia.csv', 'tasa_eficiencia_agrupada.csv')
+processing('../tasa_graduacion.csv', 'tasa_graduacion_agrupada.csv')
+processing('../tasa_abandono.csv', 'tasa_abandono_agrupada.csv')
