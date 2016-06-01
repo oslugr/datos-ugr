@@ -35,7 +35,7 @@ grafico <- function(datos_tasa, area, tasa, completo, margen){
   datos$ANIO <- factor(datos$ANIO)
   
   ggplot(datos, aes(x=ANIO, y=VALOR, group=TITULO, colour=TITULO)) + 
-    geom_point() + geom_line() + xlab("AÑO") + ylab("POSICION") +
+    geom_point() + geom_line() + xlab("AÑO") + ylab("POSICIÓN") +
     ggtitle(paste("EVOLUCIÓN DE", tasa, "EN", area, sep=" ")) + 
     scale_y_reverse(expand=c(0.01, 0.01), limits=c(filas, 1), breaks=seq(1, filas, 1), 
                     labels=titulos) +
@@ -78,23 +78,23 @@ grafico(datos_rendimiento, "INGENIERÍA Y ARQUITECTURA", "RENDIMIENTO", TRUE, 0.
 dev.off()
 
 png("graph/evolucion_exito_artes.png", width=1221, height=1000, units='px')
-grafico(datos_exito, "ARTES Y HUMANIDADES", "EXITO", TRUE, 0.2)
+grafico(datos_exito, "ARTES Y HUMANIDADES", "ÉXITO", TRUE, 0.2)
 dev.off()
 
 png("graph/evolucion_exito_ciencias.png", width=1221, height=1000, units='px')
-grafico(datos_exito, "CIENCIAS", "EXITO", TRUE, 2.5)
+grafico(datos_exito, "CIENCIAS", "ÉXITO", TRUE, 2.5)
 dev.off()
 
 png("graph/evolucion_exito_salud.png", width=1221, height=1000, units='px')
-grafico(datos_exito, "CIENCIAS DE LA SALUD", "EXITO", TRUE, 1.8)
+grafico(datos_exito, "CIENCIAS DE LA SALUD", "ÉXITO", TRUE, 1.8)
 dev.off()
 
 png("graph/evolucion_exito_sociales.png", width=1221, height=1000, units='px')
-grafico(datos_exito, "CIENCIAS SOCIALES Y JURÍDICAS", "EXITO", TRUE, 0.2)
+grafico(datos_exito, "CIENCIAS SOCIALES Y JURÍDICAS", "ÉXITO", TRUE, 0.2)
 dev.off()
 
 png("graph/evolucion_exito_ingenieria.png", width=1221, height=1000, units='px')
-grafico(datos_exito, "INGENIERÍA Y ARQUITECTURA", "EXITO", TRUE, 0.3)
+grafico(datos_exito, "INGENIERÍA Y ARQUITECTURA", "ÉXITO", TRUE, 0.3)
 dev.off()
 
 png("graph/evolucion_abandono_inicial_artes.png", width=1221, height=1000, units='px')
