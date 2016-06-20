@@ -1,41 +1,41 @@
-Colectivo,Grupo,SEXO,Nº efect.
-Pas Func.,0 - 9 Años,Hombre,144
-Pas Func.,0 - 9 Años,Mujer,238
-Pas Func.,10 - 19 Años,Hombre,75
-Pas Func.,10 - 19 Años,Mujer,38
-Pas Func.,20 - 29 Años,Hombre,173
-Pas Func.,20 - 29 Años,Mujer,162
-Pas Func.,30 - 39 Años,Hombre,39
-Pas Func.,30 - 39 Años,Mujer,63
-Pas Func.,40 - 49 Años,Hombre,7
-Pas Func.,40 - 49 Años,Mujer,48
-Pas Laboral,0 - 9 Años,Hombre,242
-Pas Laboral,0 - 9 Años,Mujer,226
-Pas Laboral,10 - 19 Años,Hombre,122
-Pas Laboral,10 - 19 Años,Mujer,282
-Pas Laboral,20 - 29 Años,Hombre,228
-Pas Laboral,20 - 29 Años,Mujer,151
-Pas Laboral,30 - 39 Años,Hombre,47
-Pas Laboral,30 - 39 Años,Mujer,35
-Pas Laboral,40 - 49 Años,Hombre,7
-Pas Laboral,40 - 49 Años,Mujer,16
-PDI Contrat.,0 - 9 Años,Hombre,395
-PDI Contrat.,0 - 9 Años,Mujer,321
-PDI Contrat.,10 - 19 Años,Hombre,285
-PDI Contrat.,10 - 19 Años,Mujer,168
-PDI Contrat.,20 - 29 Años,Hombre,122
-PDI Contrat.,20 - 29 Años,Mujer,81
-PDI Contrat.,30 - 39 Años,Hombre,14
-PDI Contrat.,30 - 39 Años,Mujer,7
-PDI Contrat.,40 - 49 Años,Hombre,15
-PDI Contrat.,40 - 49 Años,Mujer,1
-PDI Func.,0 - 9 Años,Hombre,79
-PDI Func.,0 - 9 Años,Mujer,44
-PDI Func.,10 - 19 Años,Hombre,300
-PDI Func.,10 - 19 Años,Mujer,213
-PDI Func.,20 - 29 Años,Hombre,535
-PDI Func.,20 - 29 Años,Mujer,277
-PDI Func.,30 - 39 Años,Hombre,338
-PDI Func.,30 - 39 Años,Mujer,153
-PDI Func.,40 - 49 Años,Hombre,105
-PDI Func.,40 - 49 Años,Mujer,26
+Colectivo,Grupo (años),Sexo,Nº efect.
+PAS Func.,0-9,Hombre,144
+PAS Func.,0-9,Mujer,238
+PAS Func.,10-19,Hombre,75
+PAS Func.,10-19,Mujer,38
+PAS Func.,20-29,Hombre,173
+PAS Func.,20-29,Mujer,162
+PAS Func.,30-39,Hombre,39
+PAS Func.,30-39,Mujer,63
+PAS Func.,40-49,Hombre,7
+PAS Func.,40-49,Mujer,48
+PAS Laboral,0-9,Hombre,242
+PAS Laboral,0-9,Mujer,226
+PAS Laboral,10-19,Hombre,122
+PAS Laboral,10-19,Mujer,282
+PAS Laboral,20-29,Hombre,228
+PAS Laboral,20-29,Mujer,151
+PAS Laboral,30-39,Hombre,47
+PAS Laboral,30-39,Mujer,35
+PAS Laboral,40-49,Hombre,7
+PAS Laboral,40-49,Mujer,16
+PDI Contrat.,0-9,Hombre,395
+PDI Contrat.,0-9,Mujer,321
+PDI Contrat.,10-19,Hombre,285
+PDI Contrat.,10-19,Mujer,168
+PDI Contrat.,20-29,Hombre,122
+PDI Contrat.,20-29,Mujer,81
+PDI Contrat.,30-39,Hombre,14
+PDI Contrat.,30-39,Mujer,7
+PDI Contrat.,40-49,Hombre,15
+PDI Contrat.,40-49,Mujer,1
+PDI Func.,0-9,Hombre,79
+PDI Func.,0-9,Mujer,44
+PDI Func.,10-19,Hombre,300
+PDI Func.,10-19,Mujer,213
+PDI Func.,20-29,Hombre,535
+PDI Func.,20-29,Mujer,277
+PDI Func.,30-39,Hombre,338
+PDI Func.,30-39,Mujer,153
+PDI Func.,40-49,Hombre,105
+PDI Func.,40-49,Mujer,26

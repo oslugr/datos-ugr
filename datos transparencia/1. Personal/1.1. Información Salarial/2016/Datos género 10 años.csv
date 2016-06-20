@@ -1,41 +1,41 @@
-Colectivo,Grupo,SEXO,Nº efect.
-Pas Funcionario,0-1 años,Hombre,29
-Pas Funcionario,0-1 años,Mujer,59
-Pas Funcionario,2-3 años,Hombre,22
-Pas Funcionario,2-3 años,Mujer,32
-Pas Funcionario,4-5 años,Hombre,21
-Pas Funcionario,4-5 años,Mujer,26
-Pas Funcionario,6-7 años,Hombre,55
-Pas Funcionario,6-7 años,Mujer,85
-Pas Funcionario,8-9 años,Hombre,17
-Pas Funcionario,8-9 años,Mujer,36
-Pas Laboral,0-1 años,Hombre,72
-Pas Laboral,0-1 años,Mujer,42
-Pas Laboral,2-3 años,Hombre,24
-Pas Laboral,2-3 años,Mujer,44
-Pas Laboral,4-5 años,Hombre,26
-Pas Laboral,4-5 años,Mujer,41
-Pas Laboral,6-7 años,Hombre,58
-Pas Laboral,6-7 años,Mujer,47
-Pas Laboral,8-9 años,Hombre,62
-Pas Laboral,8-9 años,Mujer,52
-Pdi Contratado,0-1 años,Hombre,34
-Pdi Contratado,0-1 años,Mujer,49
-Pdi Contratado,2-3 años,Hombre,45
-Pdi Contratado,2-3 años,Mujer,30
-Pdi Contratado,4-5 años,Hombre,56
-Pdi Contratado,4-5 años,Mujer,56
-Pdi Contratado,6-7 años,Hombre,122
-Pdi Contratado,6-7 años,Mujer,82
-Pdi Contratado,8-9 años,Hombre,138
-Pdi Contratado,8-9 años,Mujer,104
-Pdi Funcionario,0-1 años,Hombre,2
-Pdi Funcionario,0-1 años,Mujer,0
-Pdi Funcionario,2-3 años,Hombre,1
-Pdi Funcionario,2-3 años,Mujer,1
-Pdi Funcionario,4-5 años,Hombre,4
-Pdi Funcionario,4-5 años,Mujer,6
-Pdi Funcionario,6-7 años,Hombre,25
-Pdi Funcionario,6-7 años,Mujer,11
-Pdi Funcionario,8-9 años,Hombre,47
-Pdi Funcionario,8-9 años,Mujer,26
+Colectivo,Grupo (años),Sexo,Nº efect.
+PAS Funcionario,0-1,Hombre,29
+PAS Funcionario,0-1,Mujer,59
+PAS Funcionario,2-3,Hombre,22
+PAS Funcionario,2-3,Mujer,32
+PAS Funcionario,4-5,Hombre,21
+PAS Funcionario,4-5,Mujer,26
+PAS Funcionario,6-7,Hombre,55
+PAS Funcionario,6-7,Mujer,85
+PAS Funcionario,8-9,Hombre,17
+PAS Funcionario,8-9,Mujer,36
+PAS Laboral,0-1,Hombre,72
+PAS Laboral,0-1,Mujer,42
+PAS Laboral,2-3,Hombre,24
+PAS Laboral,2-3,Mujer,44
+PAS Laboral,4-5,Hombre,26
+PAS Laboral,4-5,Mujer,41
+PAS Laboral,6-7,Hombre,58
+PAS Laboral,6-7,Mujer,47
+PAS Laboral,8-9,Hombre,62
+PAS Laboral,8-9,Mujer,52
+PDI Contratado,0-1,Hombre,34
+PDI Contratado,0-1,Mujer,49
+PDI Contratado,2-3,Hombre,45
+PDI Contratado,2-3,Mujer,30
+PDI Contratado,4-5,Hombre,56
+PDI Contratado,4-5,Mujer,56
+PDI Contratado,6-7,Hombre,122
+PDI Contratado,6-7,Mujer,82
+PDI Contratado,8-9,Hombre,138
+PDI Contratado,8-9,Mujer,104
+PDI Funcionario,0-1,Hombre,2
+PDI Funcionario,0-1,Mujer,0
+PDI Funcionario,2-3,Hombre,1
+PDI Funcionario,2-3,Mujer,1
+PDI Funcionario,4-5,Hombre,4
+PDI Funcionario,4-5,Mujer,6
+PDI Funcionario,6-7,Hombre,25
+PDI Funcionario,6-7,Mujer,11
+PDI Funcionario,8-9,Hombre,47
+PDI Funcionario,8-9,Mujer,26
