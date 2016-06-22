@@ -1,28 +1,28 @@
-Orgánica,Centro,Superficie ponderada,Importe sin reducción,Importe,Importe
-3010010000,Facultad de Filosofía y Letras,47530,169206,169206,169206
-3010020000,Facultad de Derecho,35944,127962,127962,127962
-3010030000,Facultad de Ciencias,119845,426648,426648,426648
-3010040000,Facultad de Medicina,53350,189926,189926,189926
-3010050000,Facultad de Farmacia,44088,156952,156952,156952
-3010060000,Facultad de Bellas Artes,29788,106046,106046,106046
-3010070000,Facultad de Odontología,19756,70331,70331,70331
-3010080000,Facultad de Ciencias de la Educación,30572,108837,108837,108837
-3010090000,Facultad de Ciencias Políticas y Sociología,19560,69634,69634,69634
-3010100000,"E.T.S. de Ingenieros de Caminos, Canales y Puertos",34212,121795,121795,121795
-3010110000,Facultad de Ciencias del Deporte,26640,94838,94838,94838
-3010190000,Facultad de Tradución e Interpretación,11661,41514,41514,41514
-3010230000,Facultad de Educación y Humanidades de Ceuta,13359,47558,47558,47558
-3010240000,Facultad de Educación y Humanidades de Melilla,6831,24317,24317,24317
-3010250000,Facultad de Psicología,21698,77244,77244,77244
-3010260000,Facultad de Ciencias Económicas y Empresariales,39729,141435,141435,141435
-3010280000,Facultad de Ciencias Sociales de Melilla,5597,19924,19924,19924
-3010290000,Facultad de Comunicación  y Documentación,16266,57907,57907,57907
-3010300000,E.T.S. de Ingeniería de Edificación,26056,92759,92759,92759
-3010330000,Facultad de Ciencias de la Salud de Granada (Nuevo Edificio),19683,70070,70070,70070
-3010350000,Facultad de Trabajo Social,4249,15126,15126,15126
-3010400000,Facultad de Ciencias del Trabajo,9030,32147,32147,32147
-3010410000,E.T.S. de Arquitectura+Aulas prefabricadas 2010,17231,61343,61343,61343
-3010440000,E.T.S. de Ingenierías de Informática +C.I.T.I.C +Aulas prefabricadas,22136,78803,78803,78803
-3010810000,Facultad de Ciencias de la Salud de Melilla ,2185,7780,7780,15000
-3010900000,Facultad de Ciencias de la Salud de Ceuta,6524,23225,23225,23225
-3019990000,Contrato Programa a Centros,0,361515,356735,356735
+"Orgánica","Centro","Superficie ponderada","Importe"
+3010010000,"Facultad de Filosofía y Letras",47530,169206
+3010020000,"Facultad de Derecho",35944,127962
+3010030000,"Facultad de Ciencias",119845,426648
+3010040000,"Facultad de Medicina",53350,189926
+3010050000,"Facultad de Farmacia",44088,156952
+3010060000,"Facultad de Bellas Artes",29788,106046
+3010070000,"Facultad de Odontología",19756,70331
+3010080000,"Facultad de Ciencias de la Educación",30572,108837
+3010090000,"Facultad de Ciencias Políticas y Sociología",19560,69634
+3010100000,"E.T.S. de Ingenieros de Caminos, Canales y Puertos",34212,121795
+3010110000,"Facultad de Ciencias del Deporte",26640,94838
+3010190000,"Facultad de Tradución e Interpretación",11661,41514
+3010230000,"Facultad de Educación y Humanidades de Ceuta",13359,47558
+3010240000,"Facultad de Educación y Humanidades de Melilla",6831,24317
+3010250000,"Facultad de Psicología",21698,77244
+3010260000,"Facultad de Ciencias Económicas y Empresariales",39729,141435
+3010280000,"Facultad de Ciencias Sociales de Melilla",5597,19924
+3010290000,"Facultad de Comunicación  y Documentación",16266,57907
+3010300000,"E.T.S. de Ingeniería de Edificación",26056,92759
+3010330000,"Facultad de Ciencias de la Salud de Granada (Nuevo Edificio)",19683,70070
+3010350000,"Facultad de Trabajo Social",4249,15126
+3010400000,"Facultad de Ciencias del Trabajo",9030,32147
+3010410000,"E.T.S. de Arquitectura+Aulas prefabricadas 2010",17231,61343
+3010440000,"E.T.S. de Ingenierías de Informática +C.I.T.I.C +Aulas prefabricadas",22136,78803
+3010810000,"Facultad de Ciencias de la Salud de Melilla ",2185,15000
+3010900000,"Facultad de Ciencias de la Salud de Ceuta",6524,23225
+3019990000,"Contrato Programa a Centros",0,356735
