@@ -1,36 +1,36 @@
-"ARTÍCULO","CONCEPTO","SUBCONCEPTO","DENOMINACIÓN","IMPORTE"
-"40 De la Administración General del Estado","400 Del Ministerio de Educación",40000,"Financiación coste Ceuta y Melilla",8217000
-"40 De la Administración General del Estado","400 Del Ministerio de Educación",40003,"Programas Europeos de movilidad",3500000
-"40 De la Administración General del Estado","401 De otros Ministerios",40100,"Financiación operaciones corrientes",10000
-"41 De Organismos Autónomos Administrativos","410 De Organismos autónomos estatales",41001,"Del Instituto de la Mujer",20000
-"41 De Organismos Autónomos Administrativos","410 De Organismos autónomos estatales",41009,"Del IMSERSO",0
-"41 De Organismos Autónomos Administrativos","411 De Organismos autónomos Junta Andalucía",41113,"Instituto Andaluz de la Juventud",50000
-"42 De la Seguridad Social","421 Del Servicio Andaluz de Salud",42100,"Plazas vinculadas. C.Específico",2000000
-"45 De Comunidades Autónomas","450 Consej.Innovación Ciencia y Empresa. J.And",45000,"Financiación operativa estructural",98226725
-"45 De Comunidades Autónomas","450 Consej.Innovación Ciencia y Empresa. J.And",45001,"Financ. Operativa vincul. resultados",41088869
-"45 De Comunidades Autónomas","450 Consej.Innovación Ciencia y Empresa. J.And",45002,"Al Consejo Social",110000
-"45 De Comunidades Autónomas","450 Consej.Innovación Ciencia y Empresa. J.And",45003,"Financiación Insuficiencia Financiera",0
-"45 De Comunidades Autónomas","450 Consej.Innovación Ciencia y Empresa. J.And",45004,"Planes de apoyo  PRAEM",613772
-"45 De Comunidades Autónomas","450 Consej.Innovación Ciencia y Empresa. J.And",45005,"Planes de apoyo Estudiantes y EEES",5458140
-"45 De Comunidades Autónomas","450 Consej.Innovación Ciencia y Empresa. J.And",45007,"Otros Planes de apoyo ",804733
-"45 De Comunidades Autónomas","451 De otras Consejerías",45100,"De Presidencia",126706
-"45 De Comunidades Autónomas","451 De otras Consejerías","45100.01"," De Presidencia",75000
-"45 De Comunidades Autónomas","451 De otras Consejerías","45100.02"," De Presidencia (C. Docum. Europea)",51706
-"45 De Comunidades Autónomas","451 De otras Consejerías",45101,"De Gobernación",0
-"45 De Comunidades Autónomas","451 De otras Consejerías",45103,"De Justicia y Administraciones Públic",0
-"45 De Comunidades Autónomas","451 De otras Consejerías",45105,"De Empleo",75000
-"45 De Comunidades Autónomas","451 De otras Consejerías",45106,"De Turismo, Comercio y Deporte",0
-"45 De Comunidades Autónomas","451 De otras Consejerías",45110,"De Igualdad y Bienestar Social",25000
-"45 De Comunidades Autónomas","451 De otras Consejerías",45111,"De Cultura",75000
-"45 De Comunidades Autónomas","459 De otras Comunidades Autónomas",45901,"De la Ciudad Autónoma de Melilla",1556983
-"45 De Comunidades Autónomas","459 De otras Comunidades Autónomas",45902,"De la Ciudad Autónoma de Ceuta",42000
-"46 De Corporaciones Locales","460 De Diputaciones y Cabildos Insulares",46000,"De la Diputación de Granada",25000
-"46 De Corporaciones Locales","461 De Ayuntamientos",46100,"Del Ayuntamiento de Granada",30000
-"46 De Corporaciones Locales","461 De Ayuntamientos",46199,"De otros Ayuntamientos",45209
-"47 De empresas privadas","470 De entidades financieras",47001,"De Banco Mare Nostrum según Convenio",300000
-"47 De empresas privadas","470 De entidades financieras",47002,"Del BSCH según Convenio",500000
-"47 De empresas privadas","470 De entidades financieras",47005,"De Caja Rural de Granada s/conv",250000
-"47 De empresas privadas","470 De entidades financieras",47006,"De La Caixa s/ acuerdo",200000
-"47 De empresas privadas","479 De otras empresas",47900,"Para prácticas educativas",180000
-"47 De empresas privadas","479 De otras empresas",47901,"Para actividades académicas",50000
-"49 Del exterior","490 Otras transferencias de la Unión Europea",49500,"Para programas europeos",4000000
+Artículo,Concepto,Subconcepto,Denominación,Importe
+40 De la Administración General del Estado,400 Del Ministerio de Educación,40000,Financiación coste Ceuta y Melilla,8217000
+40 De la Administración General del Estado,400 Del Ministerio de Educación,40003,Programas Europeos de movilidad,3500000
+40 De la Administración General del Estado,401 De otros Ministerios,40100,Financiación operaciones corrientes,10000
+41 De Organismos Autónomos Administrativos,410 De Organismos autónomos estatales,41001,Del Instituto de la Mujer,20000
+41 De Organismos Autónomos Administrativos,410 De Organismos autónomos estatales,41009,Del IMSERSO,0
+41 De Organismos Autónomos Administrativos,411 De Organismos autónomos Junta Andalucía,41113,Instituto Andaluz de la Juventud,50000
+42 De la Seguridad Social,421 Del Servicio Andaluz de Salud,42100,Plazas vinculadas. C.Específico,2000000
+45 De Comunidades Autónomas,450 Consej.Innovación Ciencia y Empresa. J.And,45000,Financiación operativa estructural,98226725
+45 De Comunidades Autónomas,450 Consej.Innovación Ciencia y Empresa. J.And,45001,Financ. Operativa vincul. resultados,41088869
+45 De Comunidades Autónomas,450 Consej.Innovación Ciencia y Empresa. J.And,45002,Al Consejo Social,110000
+45 De Comunidades Autónomas,450 Consej.Innovación Ciencia y Empresa. J.And,45003,Financiación Insuficiencia Financiera,0
+45 De Comunidades Autónomas,450 Consej.Innovación Ciencia y Empresa. J.And,45004,Planes de apoyo  PRAEM,613772
+45 De Comunidades Autónomas,450 Consej.Innovación Ciencia y Empresa. J.And,45005,Planes de apoyo Estudiantes y EEES,5458140
+45 De Comunidades Autónomas,450 Consej.Innovación Ciencia y Empresa. J.And,45007,Otros Planes de apoyo ,804733
+45 De Comunidades Autónomas,451 De otras Consejerías,45100,De Presidencia,126706
+45 De Comunidades Autónomas,451 De otras Consejerías,"45100,01", De Presidencia,75000
+45 De Comunidades Autónomas,451 De otras Consejerías,"45100,02", De Presidencia (C. Docum. Europea),51706
+45 De Comunidades Autónomas,451 De otras Consejerías,45101,De Gobernación,0
+45 De Comunidades Autónomas,451 De otras Consejerías,45103,De Justicia y Administraciones Públic,0
+45 De Comunidades Autónomas,451 De otras Consejerías,45105,De Empleo,75000
+45 De Comunidades Autónomas,451 De otras Consejerías,45106,"De Turismo, Comercio y Deporte",0
+45 De Comunidades Autónomas,451 De otras Consejerías,45110,De Igualdad y Bienestar Social,25000
+45 De Comunidades Autónomas,451 De otras Consejerías,45111,De Cultura,75000
+45 De Comunidades Autónomas,459 De otras Comunidades Autónomas,45901,De la Ciudad Autónoma de Melilla,1556983
+45 De Comunidades Autónomas,459 De otras Comunidades Autónomas,45902,De la Ciudad Autónoma de Ceuta,42000
+46 De Corporaciones Locales,460 De Diputaciones y Cabildos Insulares,46000,De la Diputación de Granada,25000
+46 De Corporaciones Locales,461 De Ayuntamientos,46100,Del Ayuntamiento de Granada,30000
+46 De Corporaciones Locales,461 De Ayuntamientos,46199,De otros Ayuntamientos,45209
+47 De empresas privadas,470 De entidades financieras,47001,De Banco Mare Nostrum según Convenio,300000
+47 De empresas privadas,470 De entidades financieras,47002,Del BSCH según Convenio,500000
+47 De empresas privadas,470 De entidades financieras,47005,De Caja Rural de Granada s/conv,250000
+47 De empresas privadas,470 De entidades financieras,47006,De La Caixa s/ acuerdo,200000
+47 De empresas privadas,479 De otras empresas,47900,Para prácticas educativas,180000
+47 De empresas privadas,479 De otras empresas,47901,Para actividades académicas,50000
+49 Del exterior,490 Otras transferencias de la Unión Europea,49500,Para programas europeos,4000000
