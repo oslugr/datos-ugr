@@ -1,31 +1,30 @@
-"ORGÁNICA","CENTRO","NÚMERO DE
-ALUMNOS","IMPORTE","IMPORTE"
-3010010000,"Facultad de Filosofía y Letras",4736,44755,35804
-3010020000,"Facultad de Derecho",4791,45272,36218
-3010030000,"Facultad de Ciencias",5600,52917,42334
-3010040000,"Facultad de Medicina",1951,18440,14752
-3010050000,"Facultad de Farmacia",3062,28940,23152
-3010060000,"Facultad de Bellas Artes",1342,12685,10148
-3010070000,"Facultad de Odontología",458,4326,3461
-3010080000,"Facultad de Ciencias de la Educación",5009,47338,37870
-3010090000,"Facultad de Ciencias Políticas y Sociología",2079,19648,15718
+Orgánica,Centro,Número de Alumnos,Importe,Importe
+3010010000,Facultad de Filosofía y Letras,4736,44755,35804
+3010020000,Facultad de Derecho,4791,45272,36218
+3010030000,Facultad de Ciencias,5600,52917,42334
+3010040000,Facultad de Medicina,1951,18440,14752
+3010050000,Facultad de Farmacia,3062,28940,23152
+3010060000,Facultad de Bellas Artes,1342,12685,10148
+3010070000,Facultad de Odontología,458,4326,3461
+3010080000,Facultad de Ciencias de la Educación,5009,47338,37870
+3010090000,Facultad de Ciencias Políticas y Sociología,2079,19648,15718
 3010100000,"E.T.S. de Ingenieros de Caminos, Canales y Puertos",1183,11175,8940
-3010110000,"Facultad de Ciencias del Deporte ",1032,9756,7805
-3010190000,"Facultad de Tradución e Interpretación",1432,13532,10826
+3010110000,Facultad de Ciencias del Deporte ,1032,9756,7805
+3010190000,Facultad de Tradución e Interpretación,1432,13532,10826
 3010230000,"Facultad de Educación, Economía y Tecnología de Ceuta",821,7758,6206
-3010240000,"Facultad de Educación y Humanidades de Melilla",548,5179,4143
-3010250000,"Facultad de Psicología",1883,17796,14237
-3010260000,"Facultad de Ciencias Económicas y Empresariales",5532,52273,41818
-3010280000,"Facultad de Ciencias Sociales de Melilla",341,3222,2578
-3010290000,"Facultad de Comunicación  y Documentación",598,5651,4521
-3010300000,"E.T.S. de Ingeniería de Edificación",1117,10556,8445
-3010330000,"Facultad de Ciencias de la Salud de Granada",1308,12361,9889
-3010350000,"Facultad de Trabajo Social",782,7390,5912
-3010400000,"Facultad de Ciencias del Trabajo",1420,13419,10735
-3010410000,"E.T.S. de Arquitectura",1381,13050,10440
-3010440000,"E.T.S. de Ingenierías de Informática y Telecomunicación",1909,18040,14432
-3010810000,"Facultad de Ciencias de la Salud de Melilla",367,3468,2774
-3010900000,"Facultad de Ciencias de la Salud de Ceuta",488,4612,3690
-3019990000,"Contrato Programa a Centros",0,72534,58027
-3019990000,"Incentivos al Cumplimiento Ley de Morosidad",0,0,0
-3019990000,"Incentivos a Recaudación Derechos de Matrícula",0,0,0
+3010240000,Facultad de Educación y Humanidades de Melilla,548,5179,4143
+3010250000,Facultad de Psicología,1883,17796,14237
+3010260000,Facultad de Ciencias Económicas y Empresariales,5532,52273,41818
+3010280000,Facultad de Ciencias Sociales de Melilla,341,3222,2578
+3010290000,Facultad de Comunicación  y Documentación,598,5651,4521
+3010300000,E.T.S. de Ingeniería de Edificación,1117,10556,8445
+3010330000,Facultad de Ciencias de la Salud de Granada,1308,12361,9889
+3010350000,Facultad de Trabajo Social,782,7390,5912
+3010400000,Facultad de Ciencias del Trabajo,1420,13419,10735
+3010410000,E.T.S. de Arquitectura,1381,13050,10440
+3010440000,E.T.S. de Ingenierías de Informática y Telecomunicación,1909,18040,14432
+3010810000,Facultad de Ciencias de la Salud de Melilla,367,3468,2774
+3010900000,Facultad de Ciencias de la Salud de Ceuta,488,4612,3690
+3019990000,Contrato Programa a Centros,0,72534,58027
+3019990000,Incentivos al Cumplimiento Ley de Morosidad,0,0,0
+3019990000,Incentivos a Recaudación Derechos de Matrícula,0,0,0
