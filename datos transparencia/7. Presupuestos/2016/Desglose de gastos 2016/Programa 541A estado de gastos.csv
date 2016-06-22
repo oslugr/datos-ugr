@@ -1,28 +1,28 @@
-"CAPÍTULO","ARTÍCULO","CONCEPTO","DENOMINACIÓN","IMPORTE"
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 20. Arrendamientos y cánones",202,"Arrendtº edificios y otros",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 20. Arrendamientos y cánones",203,"Arrendtº maquinaria,instalaciones y utillaje",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 20. Arrendamientos y cánones",204,"Arrendtº material de transporte",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 20. Arrendamientos y cánones",205,"Arrendtº mobiliario y enseres",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 20. Arrendamientos y cánones",206,"Arrendtº equipo de informática",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 20. Arrendamientos y cánones",208,"Arrendtº otro inmovilizado material",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 21. Reparaciones, mantenimiento y conservación",212,"Edificios y otras construcciones",114040
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 21. Reparaciones, mantenimiento y conservación",213,"Maquinarias, instalaciones y utillaje",85530
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 21. Reparaciones, mantenimiento y conservación",214,"Elementosl de transporte",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 21. Reparaciones, mantenimiento y conservación",215,"Mobiliario y enseres",17106
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 21. Reparaciones, mantenimiento y conservación",216,"Sistemas para procesos de información",85530
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",220,"Material de orficina",125444
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",221,"Suministros",142550
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",222,"Comunicaciones",17104
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",223,"Transportes",2281
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",224,"Primas de seguros",5702
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",225,"Tributos",5702
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",226,"Gastos diversos",85462
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros","226.01","Atenciones protocolarias y de representación",11404
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 22. Material, suministros y otros",227,"Trabajos realizados por otras empresas",91232
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 23. Indemnizaciones por razón del servicio",230,"Dietas",57020
-"CAPÍTULO 2º. GASTOS EN BIENES CORRIENTES Y SERVICIOS","Artículo 23. Indemnizaciones por razón del servicio",231,"Locomoción",57020
-"CAPÍTULO 6º. INVERSIONES REALES","Artículo 60. Inversiones de carácter material",608,"Inversiones bibliográficas",2470000
-"CAPÍTULO 6º. INVERSIONES REALES","Artículo 63. Programa FEDER",631,"Programa FEDER 2007/2013",0
-"CAPÍTULO 6º. INVERSIONES REALES","Artículo 64. Inversiones de carácter inmaterial",640,"Investigación científica",44212706
-"CAPÍTULO 6º. INVERSIONES REALES","Artículo 64. Inversiones de carácter inmaterial","641,00","Plan Propio de Investigación Científica",1836000
-"CAPÍTULO 6º. INVERSIONES REALES","Artículo 64. Inversiones de carácter inmaterial","641,02","Plan Propio Fomento Productividad Investigadora",600000
+Capítulo,Artículo,Concepto,Denominación,Importe
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 20. Arrendamientos y cánones,202,Arrendtº edificios y otros,2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 20. Arrendamientos y cánones,203,"Arrendtº maquinaria,instalaciones y utillaje",2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 20. Arrendamientos y cánones,204,Arrendtº material de transporte,2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 20. Arrendamientos y cánones,205,Arrendtº mobiliario y enseres,2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 20. Arrendamientos y cánones,206,Arrendtº equipo de informática,2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 20. Arrendamientos y cánones,208,Arrendtº otro inmovilizado material,2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 21. Reparaciones, mantenimiento y conservación",212,Edificios y otras construcciones,114040
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 21. Reparaciones, mantenimiento y conservación",213,"Maquinarias, instalaciones y utillaje",85530
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 21. Reparaciones, mantenimiento y conservación",214,Elementosl de transporte,2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 21. Reparaciones, mantenimiento y conservación",215,Mobiliario y enseres,17106
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 21. Reparaciones, mantenimiento y conservación",216,Sistemas para procesos de información,85530
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",220,Material de orficina,125444
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",221,Suministros,142550
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",222,Comunicaciones,17104
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",223,Transportes,2281
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",224,Primas de seguros,5702
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",225,Tributos,5702
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",226,Gastos diversos,85462
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros","226,01",Atenciones protocolarias y de representación,11404
+Capítulo 2º. Gastos en bienes corrientes y servicios,"Artículo 22. Material, suministros y otros",227,Trabajos realizados por otras empresas,91232
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 23. Indemnizaciones por razón del servicio,230,Dietas,57020
+Capítulo 2º. Gastos en bienes corrientes y servicios,Artículo 23. Indemnizaciones por razón del servicio,231,Locomoción,57020
+Capítulo 6º. Inversiones reales,Artículo 60. Inversiones de carácter material,608,Inversiones bibliográficas,2470000
+Capítulo 6º. Inversiones reales,Artículo 63. Programa FEDER,631,Programa FEDER 2007/2013,0
+Capítulo 6º. Inversiones reales,Artículo 64. Inversiones de carácter inmaterial,640,Investigación científica,44212706
+Capítulo 6º. Inversiones reales,Artículo 64. Inversiones de carácter inmaterial,641,Plan Propio de Investigación Científica,1836000
+Capítulo 6º. Inversiones reales,Artículo 64. Inversiones de carácter inmaterial,"641,02",Plan Propio Fomento Productividad Investigadora,600000
